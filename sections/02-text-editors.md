@@ -1,7 +1,6 @@
-
 [<<< Previous](01-what-is-the-command-line.md) | [Next >>>](03-why-is-the-command-line-useful.md)
 
-# Text editors 
+# Text editors
 
 ## What is text?
 
@@ -19,31 +18,36 @@ Word documents which look like "just words!" are actually comprised of an archiv
 
 For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
 
-According to the [Unicode Standard](https://www.unicode.org/versions/Unicode12.1.0/), 
+According to the [Unicode Standard](https://www.unicode.org/versions/Unicode12.1.0/),
 
-"Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes."
+> Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.
 
 Plain text has two main properties in regard to rich text:
 
-"plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable."
+> plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable.
 
-Plain text shows its cards-- if it's marked up, the markup will be human readable. Plain text can be moved between programs more fluidly and can respond to programmatic manipulations. Because it is not tied to a particular font or color or placement, plain text can be styled externally.
+Plain text shows its cards—if it's marked up, the markup will be human readable. Plain text can be moved between programs more fluidly and can respond to programmatic manipulations. Because it is not tied to a particular font or color or placement, plain text can be styled externally.
 
-A counterpoint to plain text is rich text (sometimes denoted by the Microsoft rich text format ".rtf" file extension) or "enriched text" (sometimes seen as an option in email programs). In rich text files, plain text is elaborated with formatting specific to the program in which they are made.
+A counterpoint to plain text is rich text (sometimes denoted by the Microsoft rich text format .rtf file extension) or "enriched text" (sometimes seen as an option in email programs). In rich text files, plain text is elaborated with formatting specific to the program in which they are made.
 
-## Text editors
+## Choosing a text editor
 
-An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. Text editors are not used to edit rich text documents, such as .docx or .rtf, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly. 
+An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. Text editors are not used to edit rich text documents, such as .docx or .rtf, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly.
 
-While it doesn't really matter which text editor you choose, you should try to become comfortable with at least one text editor. 
+While it doesn't really matter which text editor you choose, you should try to become comfortable with at least one text editor.
+
+Choosing a text editor has as much to do with personality as it does with functionality. Graphical user interfaces (GUIs), user options, and "hackability" vary from program to program.
 
 ## Default recommendation
 
-Choosing a text editor has as much to do with personality as it does with functionality. Graphical user interfaces (GUIs), user options, and "hackability" vary from program to program. For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across OSX, Windows, and Linux systems.
+For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across OSX, Windows, and Linux systems.
 
 You will have downloaded VS Code according to the [instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md) on the installations page. We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. In later workshops we will discuss syntax highlighting and version control, which Visual Studio Code supports. For now we will get back to working in the command line itself.
 
+---
+
+[More information about text editors](13-text-editors-ides.md) can be found in the resources at the end of the lesson.
+
+---
+
 [<<< Previous](01-what-is-the-command-line.md) | [Next >>>](03-why-is-the-command-line-useful.md)
-
-
-[More information about text editors](text-editors-ides.md) can be found in the resources at the end of the lesson. 

@@ -8,7 +8,7 @@ Pipes let you take the output of one command and use it as the input for another
 
 Let's start with a simple example:
 
-```
+```console
 $ echo "Hello from the command line" | wc -w
 5
 ```
@@ -19,18 +19,22 @@ Let's try another. What if we wanted to put the commands in our cheat sheet in a
 
 Use `pwd` and `cd` to make sure you're in the folder with your cheat sheet. Then try:
 
-```
+```console
 cat cheat-sheet.txt | sort
 ```
 
 You should see the contents of the cheat sheet file with each line rearranged in alphabetical order. If you wanted to save this output, you could use a `>` to print the output to a file, like this:
 
-```
+```console
 cat cheat-sheet.txt | sort > new-cheat-sheet.txt
 ```
 
-[<<< Previous](07-creating_a_cheat_sheet.md) | [Next >>>](09-data.md)
+---
 
 ## Example
 
 ![Pipes example](images/pipes.gif)
+
+---
+
+[<<< Previous](07-creating_a_cheat_sheet.md) | [Next >>>](09-data.md)

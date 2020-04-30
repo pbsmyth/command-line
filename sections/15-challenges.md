@@ -8,28 +8,28 @@ These challenges are ordered from easiest to hardest. No, it's not cheating if y
 
 Use the `touch` command to create a hidden file. Hidden files have a `.` in front of them, like this:
 
-```
+```console
 $ ls -A
 .gitignore hello.txt
+
 $ ls
 hello.txt
 ```
 
-You can also create hidden folders this way, but you only need to create a file to pass the challenge. 
-
+You can also create hidden folders this way, but you only need to create a file to pass the challenge.
 
 ## Challenge #2: create an alias
 
 All these commands are great and all, but what if I want to make my own command? For example, maybe I want to make this happen:
 
-```
+```console
 $ peptalk
 Good work
 ```
 
 To do this, use the `alias` command:
 
-```
+```console
 $ alias peptalk="echo Good work"
 ```
 
@@ -43,7 +43,7 @@ To do this, you will need to edit the configuration file that your terminal runs
 
 **Note to Windows users:** This could present a challenge, as `.bashrc` may not be created for you by default, and if you create it, Git Bash may not recognize it. [A Stack Overflow question here](https://stackoverflow.com/questions/6883760/git-for-windows-bashrc-or-equivalent-configuration-files-for-git-bash-shell) addresses the potential challenges.
 
-## Challenge #4: create your own shell script 
+## Challenge #4: create your own shell script
 
 Due to platform differences, Windows users should skip directly to Challenge #5.
 
@@ -51,21 +51,20 @@ You're having fun with aliases, but are they REAL programs, or just glorified sh
 
 This challenge is to create a bash script, a REAL program written in bash. To do this, create a text file (I'll call this one `goto-projects.sh`) that begins with this line:
 
-```
+```bash
 #!/bin/bash
 ```
 
 Under that, write some lines of bash that you want to be executed. How about a program that goes to your projects folder from wherever you are?
 
-```
+```bash
 cd ~/Desktop/projects
 echo "Now you're in $PWD"
 ```
 
-Your script should look like this when you're done.
+Your script (`goto-projects.sh`) should look like this when you're done.
 
-goto-projects.sh:
-```
+```bash
 #!/bin/bash
 
 cd ~/Desktop/projects
@@ -74,33 +73,33 @@ echo "Now you're in $PWD"
 
 Now run this command to make your script executable. This gives your computer permission to run it as a program:
 
-```
+```console
 $ chmod a+x goto-projects.sh
 ```
 
 Now run your program like this:
 
-```
+```console
 $ ./goto-projects.sh
 ```
 
 ## Challenge #5: make your script run from anywhere
 
-### Mac OS
+### macOS
 
 Last challenge! So you've made a real program in bash, you're probably feeling pretty proud of yourself. Deservedly so. But you still need to be in a folder with your program, and you still need to use that annoying `./` to run it. Let's make our program accessible from anywhere on the system by moving it to the `/bin` folder.
 
-This challenge must be performed differently in Mac OS and in Windows using Git Bash.
+This challenge must be performed differently in macOS and in Windows using Git Bash.
 
-```
+```console
 sudo mv goto-projects.sh /bin/goto-projects
 ```
 
-This moves your script from its current folder to the `/bin` folder and renames it from `goto-projects.sh` to `goto-projects`. Now close your terminal with `exit` and reopen it. Type 
+This moves your script from its current folder to the `/bin` folder and renames it from `goto-projects.sh` to `goto-projects`. Now close your terminal with `exit` and reopen it. Type
 
-
-	$ goto-projects
-
+```console
+$ goto-projects
+```
 
 from anywhere and see if that runs your script. If it does, congratulations! You're a force to be reckoned with on the command line.
 
@@ -125,14 +124,18 @@ The first line of the program is a special line that lets the command line know 
 
 Once our script is written out, save it in the following folder on your system:
 
-	c:\Program Files\Git\usr\bin
-	
+```console
+c:\Program Files\Git\usr\bin
+```
+
 This is a folder where Git Bash looks to determine which commands are available when it starts up. Enter `goto-projects` as the filename, and VS Code should automatically add a `.sh` extension, indicating that the file is a bash script.
 
 Close and reopen Git Bash. You should now be able to run your new command by typing
 
-	goto-projects.sh
-	
+```console
+$ goto-projects.sh
+```
+
 at the `$` prompt. If the command isn't appearing, you may want to use Git Bash to navigate to the `/usr/bin` folder and use `ls` to see if the command was saved correctly and what it is called.
 
 [<<< Previous](11-summary.md) | [Back to beginning >>>](../README.md)
