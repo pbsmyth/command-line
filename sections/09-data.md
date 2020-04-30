@@ -1,4 +1,4 @@
-[<<< Previous](pipes.md) | [Next >>>](grep.md)
+[<<< Previous](08-pipes.md) | [Next >>>](10-grep.md)
 
 ## Exploring text data
 
@@ -92,7 +92,6 @@ The `uniq` command with the `-d` flag prints out the lines that have duplicates.
 
 Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: [redirects](creating_a_cheat_sheet.md#redirect-) are your friend.)
 
-[<<< Previous](pipes.md) | [Next >>>](grep.md)
+[<<< Previous](08-pipes.md) | [Next >>>](10-grep.md)
 
 ![exploring data](images/data.gif)
-

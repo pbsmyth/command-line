@@ -1,4 +1,4 @@
-[<<< Previous](grep.md)
+[<<< Previous](10-grep.md) | [>>> Return to introduction](../README.md)
 
 ### What we've learned
 
@@ -14,9 +14,9 @@ In this session, we learned:
 - how to explore a comma separated values (.csv) dataset using word and line counts, `head` and `tail`, and the concatenate command `cat`
 - how to search text files using the `grep` command
 
-and we made a [cheat sheet](commands.md) for reference!
+and we made a [cheat sheet](12-commands.md) for reference!
 
-When we started, we reviewed what text is--whether plain or enriched. We learned that text editors that don't fix formatting of font, color, and size, do allow for more flexible manipulation and multi-program use. If text is allowed to be a string of characters (and not specific characters chosen for their compliance with a designer's intention), that text can be fed through programs and altered with automated regularity. Text editors are different software than Bash (or Terminal), which is a text-based shell that allows you to interact directly with your operating system giving direct input and receiving output. 
+When we started, we reviewed what text is--whether plain or enriched. We learned that text editors that don't fix formatting of font, color, and size, do allow for more flexible manipulation and multi-program use. If text is allowed to be a string of characters (and not specific characters chosen for their compliance with a designer's intention), that text can be fed through programs and altered with automated regularity. Text editors are different software than Bash (or Terminal), which is a text-based shell that allows you to interact directly with your operating system giving direct input and receiving output.
 
 Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
 
@@ -28,7 +28,7 @@ In the [DHRI Zotero Library](https://www.zotero.org/groups/2164386/digital_human
 
 [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/index.php)
 
-The DHRI Zotero Library includes articles about how and why you might want to use MALLET. If you complete [our machine learning workshop](https://github.com/DHRI-Curriculum/machine-learning) and get a sense of how it works, you may want to explore this tool developed by and for digital humanities scholars.  
+The DHRI Zotero Library includes articles about how and why you might want to use MALLET. If you complete [our machine learning workshop](https://github.com/DHRI-Curriculum/machine-learning) and get a sense of how it works, you may want to explore this tool developed by and for digital humanities scholars.
 
 [Pandoc](https://pandoc.org/)
 
@@ -38,19 +38,16 @@ These are just a couple of tools that the command line makes available to you. T
 
 ### What next?
 
-That's the end of the command line session, but if you want to continue to learn about the command line, take a look at 
+That's the end of the command line session, but if you want to continue to learn about the command line, take a look at
 
-[other useful commands](other-commands.md), 
+[other useful commands](14-other-commands.md),
 
-[additional challenges](challenges.md),
+[additional challenges](15-challenges.md),
 
-or 
+or
 
-review [our glossary for the command line](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md).   
+review [our glossary for the command line](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md).  
 
 Here is an external [command line tutorial]( https://ryanstutorials.net/linuxtutorial/) if you wish to review and learn more.
 
-[<<< Previous](grep.md)  
-[<<< Return to introduction](https://github.com/DHRI-Curriculum/command-line/)
-
-
+[<<< Previous](10-grep.md) | [>>> Return to introduction](../README.md)

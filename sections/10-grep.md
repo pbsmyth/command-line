@@ -1,4 +1,4 @@
-[<<< Previous](data.md) | [Next >>>](summary.md)  
+[<<< Previous](09-data.md) | [Next >>>](11-summary.md)
 
 # Searching text data
 
@@ -46,7 +46,7 @@ $ mv cheat-sheet.txt cheatsheets
 $ mv nypl_items.csv databases
 ```
 
-[<<< Previous](data.md) | [Next >>>](summary.md)
+[<<< Previous](09-data.md) | [Next >>>](11-summary.md)
 
 [Go to other commands >>>](other-commands.md)  
 [Go to further challenges >>>](challenges.md)  
@@ -54,6 +54,3 @@ $ mv nypl_items.csv databases
 ## Example
 
 ![Searching a text file with grep](images/grep.gif)
-
-
-

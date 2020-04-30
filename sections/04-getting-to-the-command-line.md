@@ -1,4 +1,4 @@
-[<<< Previous](why-is-the-command-line-useful.md) | [Next >>>](navigation.md)
+[<<< Previous](03-why-is-the-command-line-useful.md) | [Next >>>](05-navigation.md)
 
 # Getting to the command line
 
@@ -34,4 +34,4 @@ We won't be using Windows's own non-UNIX version of the command line. We install
 
 In the next section, we'll learn how to navigate the filesystem in the command line.
 
-[<<< Previous](why-is-the-command-line-useful.md) | [Next >>>](navigation.md)
+[<<< Previous](03-why-is-the-command-line-useful.md) | [Next >>>](05-navigation.md)

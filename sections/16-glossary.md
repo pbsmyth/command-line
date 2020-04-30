@@ -1,5 +1,4 @@
-[<<< Previous](summary.md)  
-[<<< Return to introduction](README.md)
+[<<< Previous](11-summary.md) | [>>> Return to introduction](../README.md)
 
 ## Glossary
 
@@ -49,10 +48,10 @@ The wildcard, `*`, will tell the command to search for any file ending with a .t
 
 ````mv [filename.*] [foldername]````
 
-
-
 Find so much more on the command line:
 
 [Bash manual](https://www.gnu.org/software/bash/manual/bashref.html) - the no nonsense text descriptions of bash commands.  
 [explain shell](https://explainshell.com/) - a site that explains commands you paste into the form. This site is fantastic for breaking down commands you find in the wild on the internet.  
 [Easy shell guide](https://lucasviola.github.io/easyshell/) - a friendly, styled (pastel!) list of common commands you might want to try out.
+
+[<<< Previous](11-summary.md) | [>>> Return to introduction](../README.md)
