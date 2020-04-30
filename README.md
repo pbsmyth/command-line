@@ -18,7 +18,7 @@ In this session, we will:
 - search text files using the `grep` command
 - create and sort cheat sheets for the commands we learn
 
-[Get Started >>>](sections/what-is-the-command-line.md)  
+[Get Started >>>](sections/01-what-is-the-command-line.md)  
 [Glossary >>>](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md)  
 
 -----
@@ -41,7 +41,7 @@ In this session, we will:
 [More on text editors](sections/text-editors-ides.md)  
 [Other useful commands](sections/other-commands.md)  
 [Further challenges](sections/challenges.md)  
-[Glossary](sections/glossary.md)  
+[Glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md)  
 
 -----
 
