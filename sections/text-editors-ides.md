@@ -21,7 +21,7 @@ If in your terminal you type:
 
 You will open the nano editor in the command line. You'll see your terminal change to look something like this:
 
-![Image of what nano looks like when you open it](nano.png)
+![Image of what nano looks like when you open it](images/nano.png)
 
 When you're done typing to add text to the file, you can save the file by performing these three actions:
 

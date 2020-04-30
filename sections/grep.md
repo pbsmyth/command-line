@@ -53,7 +53,7 @@ $ mv nypl_items.csv databases
 
 ## Example
 
-![Searching a text file with grep](grep.gif)
+![Searching a text file with grep](images/grep.gif)
 
 
 

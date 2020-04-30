@@ -94,5 +94,5 @@ Use the commands you've learned so far to create a new version of the `nypl_item
 
 [<<< Previous](pipes.md) | [Next >>>](grep.md)
 
-![exploring data](data.gif)
+![exploring data](images/data.gif)
 

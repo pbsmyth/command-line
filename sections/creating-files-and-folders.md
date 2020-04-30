@@ -64,4 +64,4 @@ OK, now you've got a projects folder that you can use throughout the Institute. 
 
 ## Example
 
-![Creating files and folders](make-file-folder.gif)
+![Creating files and folders](images/make-file-folder.gif)

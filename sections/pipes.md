@@ -33,7 +33,7 @@ cat cheat-sheet.txt | sort > new-cheat-sheet.txt
 
 ## Example
 
-![Pipes example](pipes.gif)
+![Pipes example](images/pipes.gif)
 
 
 

@@ -11,7 +11,7 @@ If you're using Mac OS:
 3\. Select the first item that appears in the list.  
 4\. The terminal will look like this:  
 
-![Terminal in Mac OS](osx_term.png)
+![Terminal in Mac OS](images/osx_term.png)
 
 When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command.
 
