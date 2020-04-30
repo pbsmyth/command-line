@@ -1,4 +1,4 @@
-[<<< Previous](11-summary.md) | [>>> Return to introduction](../README.md)
+[<<< Previous](11-summary.md) | [Back to beginning >>>](../README.md)
 
 ## Commands
 
@@ -41,4 +41,4 @@
 
 Also check out [other useful commands](other-commands.md)
 
-[<<< Previous](11-summary.md) | [>>> Return to introduction](../README.md)
+[<<< Previous](11-summary.md) | [Back to beginning >>>](../README.md)

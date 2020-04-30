@@ -1,4 +1,4 @@
-[<<< Previous](11-summary.md) | [>>> Return to introduction](../README.md)
+[<<< Previous](11-summary.md) | [Back to beginning >>>](../README.md)
 
 ## Glossary
 
@@ -54,4 +54,4 @@ Find so much more on the command line:
 [explain shell](https://explainshell.com/) - a site that explains commands you paste into the form. This site is fantastic for breaking down commands you find in the wild on the internet.  
 [Easy shell guide](https://lucasviola.github.io/easyshell/) - a friendly, styled (pastel!) list of common commands you might want to try out.
 
-[<<< Previous](11-summary.md) | [>>> Return to introduction](../README.md)
+[<<< Previous](11-summary.md) | [Back to beginning >>>](../README.md)

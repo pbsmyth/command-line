@@ -1,4 +1,4 @@
-[<<< Previous](11-summary.md) | [>>> Return to introduction](../README.md)
+[<<< Previous](11-summary.md) | [Back to beginning >>>](../README.md)
 
 ## More Information about Text Editors
 
@@ -44,4 +44,4 @@ As mentioned above, IDEs offer more functions for testing code and running progr
 - **[IDLE](https://docs.python.org/2/library/idle.html)** - The default Python IDE that comes bundled with every download of Python. Simple to use and good for beginners to Python. Not very polished and lacks advanced features.
 - **Spyder** and **PyCharm** - These are Python-specific IDEs. They have more bells and whistles than a standard text editor like Textwrangler, but they're meant specifically for working with Python. Spyder is free and comes bundled with Anaconda. PyCharm is not free, but some people prefer it for working with Python on the web.
 
-[<<< Previous](11-summary.md) | [>>> Return to introduction](../README.md)
+[<<< Previous](11-summary.md) | [Back to beginning >>>](../README.md)
