@@ -28,38 +28,24 @@ In this session, we will:
 
 -----
 
-[What is the command line?](sections/01-what-is-the-command-line.md)
-
-[Working with text](sections/02-text-editors.md)
-
-[Why is the command line useful?](sections/03-why-is-the-command-line-useful.md)
-
-[Getting to the command line](sections/04-getting-to-the-command-line.md)
-
-[Navigation](sections/05-navigation.md)
-
-[Creating files and folders](sections/06-creating-files-and-folders.md)
-
-[Creating a cheat sheet](sections/07-creating_a_cheat_sheet.md)
-
-[Pipes](sections/08-pipes.md)
-
-[Exploring text data](sections/09-data.md)
-
-[Searching text data](sections/10-grep.md)
-
+[What is the command line?](sections/01-what-is-the-command-line.md)  
+[Working with text](sections/02-text-editors.md)  
+[Why is the command line useful?](sections/03-why-is-the-command-line-useful.md)  
+[Getting to the command line](sections/04-getting-to-the-command-line.md)  
+[Navigation](sections/05-navigation.md)  
+[Creating files and folders](sections/06-creating-files-and-folders.md)  
+[Creating a cheat sheet](sections/07-creating_a_cheat_sheet.md)  
+[Pipes](sections/08-pipes.md)  
+[Exploring text data](sections/09-data.md)  
+[Searching text data](sections/10-grep.md)  
 [Summary of what we've covered](sections/11-summary.md)
 
 ## Resources
 
-[Commands cheat sheet](sections/12-commands.md)
-
-[More on text editors](sections/13-text-editors-ides.md)
-
-[Other useful commands](sections/14-other-commands.md)
-
-[Further challenges](sections/15-challenges.md)
-
+[Commands cheat sheet](sections/12-commands.md)  
+[More on text editors](sections/13-text-editors-ides.md)  
+[Other useful commands](sections/14-other-commands.md)  
+[Further challenges](sections/15-challenges.md)  
 [Glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md)
 
 -----
