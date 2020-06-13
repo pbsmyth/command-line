@@ -28,18 +28,18 @@ In this workshop, you will learn the following skills:
 
 ## Prerequisites
 
-- Intro to Python
-- Title of required previous workshop
+None
 
 ## Contexts
 
 ### Pre-reading suggestions
 
-- Book about R
+- [Neal Stephenson, "In the Beginning Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html)
+- [Douglas Rushkoff, Program or Be Programmed](https://rushkoff.com/books/program-or-be-programmed/)
 
 ### Projects that use these skills
 
-- Something cool
+- All Python- and R-based projects
 
 ### Ethical Considerations
 
@@ -54,6 +54,7 @@ In this workshop, you will learn the following skills:
 - [Other useful commands](sections/14-other-commands.md)  
 - [Further challenges](sections/15-challenges.md)  
 - [Glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md)
+- [Bite Size Command Line (by Julia Evans)](https://jvns.ca/blog/2018/08/05/new-zine--bite-size-command-line/)
 
 ## Acknowledgements
 
