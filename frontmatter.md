@@ -47,8 +47,6 @@ None
 
 ## Resources (optional)
 
-- Links to required installations.
-- Shortcut sheets.
 - [Commands cheat sheet](sections/12-commands.md)  
 - [More on text editors](sections/13-text-editors-ides.md)  
 - [Other useful commands](sections/14-other-commands.md)  
