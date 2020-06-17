@@ -28,7 +28,10 @@ In this workshop, you will learn the following skills:
 
 ## Prerequisites
 
-None
+To complete the workshop, you will need:
+
+- A plain text editor, such as [VS Code](https://github.com/GC-DRI/install/blob/master/sections/vscode.md) installed
+- To know what operating system you're using. If you are on a Mac, you will be using your Terminal. If you're using Windows, you won't be using its own non-UNIX version of the command line. You will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session. 
 
 ## Contexts
 
@@ -39,11 +42,19 @@ None
 
 ### Projects that use these skills
 
-- All Python- and R-based projects
+what is important is to think about how knowing the command line and how to use it helps create a project. List some examples and how they help/what they do
+
+- All Python- and R-based projects 
+- Working on Omeka, knowing about the command line would help you, for example, set up an installation of Omeka-S and to add plugins to an installation.
+
 
 ### Ethical Considerations
 
-- Something scary
+"The command line" is also laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in ["On Software, or the Persistence of Visual Knowledge" (2004)](https://doi.org/10.1162/1526381043320741), almost all computers (as in human comput-ers) in the US during World War II were young women. Human computers received commands from analysts——predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argues
+
+> computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.
+
+The command line (of computers today) receives these commands as text that is typed in.
 
 ## Resources (optional)
 
