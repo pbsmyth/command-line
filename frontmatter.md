@@ -39,9 +39,11 @@ To complete the workshop, you will need:
 
 - [Neal Stephenson, "In the Beginning Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html)
 - [Douglas Rushkoff, Program or Be Programmed](https://rushkoff.com/books/program-or-be-programmed/)
+- [Free Code Camp, A Brief History of the Command Line](https://www.freecodecamp.org/news/the-command-line-1fdbc692b3bf/) 
 
 ### Projects that use these skills
 
+You can use the Command Line on a number of projects...
 what is important is to think about how knowing the command line and how to use it helps create a project. List some examples and how they help/what they do
 
 - All Python- and R-based projects 
@@ -56,7 +58,7 @@ what is important is to think about how knowing the command line and how to use 
 
 The command line (of computers today) receives these commands as text that is typed in.
 
-## Resources (optional)
+## Resources 
 
 - [Commands cheat sheet](sections/12-commands.md)  
 - [More on text editors](sections/13-text-editors-ides.md)  
@@ -67,8 +69,5 @@ The command line (of computers today) receives these commands as text that is ty
 
 ## Acknowledgements
 
-- Stefano Morello
-- Kelsey Chatlosh
-- Patrick Smyth 
-- Mary Catherine McKinniburgh 
-- Jojo Karlin
+- Current Author: Stefano Morello
+- Contributing Authors: Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, Jojo Karlin
