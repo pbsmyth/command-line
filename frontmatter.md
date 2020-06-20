@@ -43,11 +43,10 @@ To complete the workshop, you will need:
 
 ### Projects that use these skills
 
-You can use the Command Line on a number of projects...
-what is important is to think about how knowing the command line and how to use it helps create a project. List some examples and how they help/what they do
+Mastering the command line will prove useful in a great number of projects. 
 
-- All Python- and R-based projects 
-- Working on Omeka, knowing about the command line would help you, for example, set up an installation of Omeka-S and to add plugins to an installation.
+- Most Python- and R-based projects will require you to have some knowledge of the command line. At a very basic level, you will be invoking a Python script and will be using values of command line arguments when creating and running your scripts.
+- The command line is also useful for setting up installations of server side software like [Omeka](www.omeka.org). The command line will allow you to navigate the file structure of your server. Commands like ls, mkdir, rmdir, cd, etc. are really important. For example, grep could help you find a plugin directory that you might have accidentally placed in the wrong location.
 
 
 ### Ethical Considerations
@@ -62,10 +61,10 @@ The command line (of computers today) receives these commands as text that is ty
 
 - [Commands cheat sheet](sections/12-commands.md)  
 - [More on text editors](sections/13-text-editors-ides.md)  
-- [Other useful commands](sections/14-other-commands.md)  
-- [Further challenges](sections/15-challenges.md)  
+- [Other useful commands](sections/14-other-commands.md)   
 - [Glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md)
 - [Bite Size Command Line (by Julia Evans)](https://jvns.ca/blog/2018/08/05/new-zine--bite-size-command-line/)
+- [Basic UNIX commands](http://mally.stanford.edu/~sr/computing/basic-unix.html)
 
 ## Acknowledgements
 

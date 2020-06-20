@@ -2,22 +2,28 @@
 
 ## Suggested Further Readings
 
-(For instance)[https://github.com/DHRI-Curriculum/ethics/blob/master/sections/resources.md]
-
 - [The Bash Manual (by Free Software Foundation)](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
-- If the reading has a DOI number, make sure to add it. If it does, you do not need to add any additional bibliographic information.
+- [Sustainable Authorship in Plain Text using Pandoc and Markdown (by Dennis Tenen and Grant Wythoff)](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
+- [Life on the Command Line (by Stephen Ramsay)](https://files.zotero.net/eyJleHBpcmVzIjoxNTkyNjY1MDk3LCJoYXNoIjoiODFkNDJmZmU1ZjU3YzRmMDE2YTQ1ZmQwY2YzOTUwYmIiLCJjb250ZW50VHlwZSI6InRleHRcL2h0bWwiLCJjaGFyc2V0IjoidXRmLTgiLCJ6aXAiOjF9/07826342b83ea870f846cfa48f1b0eb8d3d51b78ceb1b05b1e014467d7241904/life-on-the-command-line.html)
+- [Programming with Humanists: Reflections on Raising an Army of Hacker-Scholars in the Digital Humanities(By Stephen Ramsay)](https://www.openbookpublishers.com/htmlreader/DHP/chap09.html)
 
 ## Other Tutorials
 
-- Use bullet points for each of the sources (in markdown, you use - on a new line to create a bullet point).
+- [Linux Tutorial (by Ryans Tutorials)](https://ryanstutorials.net/linuxtutorial/)
+- [The Linux command line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+- [Data Science at the Command Line](https://www.datascienceatthecommandline.com/)
 
 ## Projects or Challenges to Try
 
+- [Further challenges](sections/15-challenges.md) 
+- [Bash Guide for Beginners (by Machtelt Garrels)](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
+- [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
+- [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/)
 - [Pandoc, an online software that allows users to switch file types (from markdown to PDF, for example)](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
+Pandoc calls itself a swiss army knife—it can convert many formats (markdown, HTML, LaTeX, and more) into HTML formats, word processor formats, EPUBS, pdfs, and more. Once you set up a workflow, you can use the same document to generate the various versions you might need for web and print. Pandoc is especially useful if you manage a publication which has both web and print manifestations. Pandoc can also integrate with Zotero citational software enabling automated citation management. (Imagine updating a reference in your Zotero Library so that it automatically updates all your citations in all your documents!)
 
-- Further exploration, possible little projects
-- Exercises from other open source tutorials
-- Programming Historian
+
+- [youtube-dl, a command-line program to download videos from YouTube.com](https://ytdl-org.github.io/youtube-dl/index.html) (Requires the Python interpreter)
 
 ## Discussion Questions
 
