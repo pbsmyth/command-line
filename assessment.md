@@ -16,6 +16,4 @@ What is the Command Line? How is it different from your text editor?
 
 What is the difference between plain text and a Microsoft Word document? 
 
-What types of questions might you ask yourself when collecting or reusing data? 
-
-- If you think of readings/tutorials/projects/challenges from the "Theory to Practice" section to direct them to, and add a note of that as a bullet point under relevant questions.
+[Free Code Camp, A Brief History of the Command Line](https://www.freecodecamp.org/news/the-command-line-1fdbc692b3bf/) 

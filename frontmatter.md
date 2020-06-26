@@ -24,7 +24,7 @@ In this workshop, you will learn the following skills:
 
 ## Estimated time
 
-10 hours.
+3 hours.
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ To complete the workshop, you will need:
 ### Pre-reading suggestions
 
 - [Neal Stephenson, "In the Beginning Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html)
-- [Douglas Rushkoff, Program or Be Programmed](https://rushkoff.com/books/program-or-be-programmed/)
+- [Douglas Rushkoff, *Program or Be Programmed*](https://rushkoff.com/books/program-or-be-programmed/)
 - [Free Code Camp, A Brief History of the Command Line](https://www.freecodecamp.org/news/the-command-line-1fdbc692b3bf/) 
 
 ### Projects that use these skills
