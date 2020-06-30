@@ -37,14 +37,14 @@ Which of the following statements best describes your experience completing this
 - The workshop did not offer any new information or skills. 
 
 Please select all that apply. Which section(s) of the Command Line workshop were most valuable to you?  PLEASE NOTE: This is going to have to be revised once the workshop has been finalized. 
-- What is the command line?
-- Why is the command line useful?
+- What is the Command Line?
+- Why is the Command Line Useful?
 - Navigation
-- Creating files and folders
-- Creating a cheat sheet
+- Creating Files and Folders
+- Creating a Cheat Sheet
 - Pipes
-- Exploring text data
-- Searching text data
+- Exploring Text Data
+- Searching Text Data
 
 
 What additional topics or information do you wish was covered in this workshop? 

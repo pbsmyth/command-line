@@ -31,7 +31,7 @@ In this workshop, you will learn the following skills:
 To complete the workshop, you will need:
 
 - A plain text editor, such as [VS Code](https://github.com/GC-DRI/install/blob/master/sections/vscode.md) installed
-- To know what operating system you're using. If you are on a Mac, you will be using your Terminal. If you're using Windows, you won't be using its own non-UNIX version of the command line. You will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session. 
+- To know what operating system you're using. If you are on a Mac, you will be using your Terminal. If you're using Windows, you will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session. 
 
 ## Contexts
 
