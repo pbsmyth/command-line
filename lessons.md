@@ -92,7 +92,7 @@ If you're using macOS:
 
 4. The terminal will look like this:
 
-    ![Terminal in Mac OS](images/osx_term.png)
+    ![Terminal in Mac OS](sections/images/osx_term.png)
 
 When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command.
 
@@ -225,7 +225,7 @@ Go ahead and use pointing and clicking to navigate to your working directory—y
 
 ## Example:
 
-![Navigating the command line](images/nav.gif)
+![Navigating the command line](sections/images/nav.gif)
 
 ---
 # Creating files and folders
@@ -292,7 +292,7 @@ OK, now you've got a projects folder that you can use throughout the Institute. 
 
 ## Example
 
-![Creating files and folders](images/make-file-folder.gif)
+![Creating files and folders](sections/images/make-file-folder.gif)
 
 ---
 # Creating a cheat sheet
@@ -423,7 +423,7 @@ cat cheat-sheet.txt | sort > new-cheat-sheet.txt
 
 ## Example
 
-![Pipes example](images/pipes.gif)
+![Pipes example](sections/images/pipes.gif)
 
 ---
 # Exploring text data
@@ -524,7 +524,7 @@ Use the commands you've learned so far to create a new version of the `nypl_item
 
 ---
 
-![exploring data](images/data.gif)
+![exploring data](sections/images/data.gif)
 
 ---
 # Searching text data
@@ -577,7 +577,7 @@ $ mv nypl_items.csv databases
 
 ## Example
 
-![Searching a text file with grep](images/grep.gif)
+![Searching a text file with grep](sections/images/grep.gif)
 
 ---
 # Searching text data
@@ -630,7 +630,7 @@ $ mv nypl_items.csv databases
 
 ## Example
 
-![Searching a text file with grep](images/grep.gif)
+![Searching a text file with grep](sections/images/grep.gif)
 
 ---
 # What we've learned
