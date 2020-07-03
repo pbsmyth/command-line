@@ -22,7 +22,8 @@ Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/
 If you ask the command line to read that file, this Word .docx file will look something like this
 
 ![Word Doc as visualized by Command Line](sections/images/CatWordDoc.png)
-Users with visual disabilities, [click here](pk.md) to dowload the text file.
+
+Users with visual disabilities, [click here](PK.md) to dowload the text file.
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
