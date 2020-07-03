@@ -21,8 +21,7 @@ Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/
 
 If you ask the command line to read that file, this Word .docx file will look something like this
 
-![Word Doc as visualized by Command Line](sections/images/CatWordDoc.png)
-
+![Word Doc as visualized by Command Line](sections/images/CatWordDoc.png)<br>
 Users with visual disabilities, [click here](PK.md) to dowload the text file.
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
@@ -87,7 +86,7 @@ If you're using macOS:
 
 3. Select the first item that appears in the list.
 
-4. The terminal will look like this:
+4. When the Terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.
 
     ![Terminal in Mac OS](sections/images/osx_term.png)
 
@@ -107,7 +106,7 @@ We won't be using Windows's own non-UNIX version of the command line. We install
 
 3. Open the program.
 
-4. You know you're in the right place when you see the `$`.
+4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
 
 ## Command prompt `$`
 
@@ -384,7 +383,7 @@ change directory to home folder
 
 ## Example
 
-![Creating a Cheat Sheet](cheat-sheet.gif)
+![Creating a Cheat Sheet](/sections/images/cheat-sheet.gif)
 
 ---
 # Pipes
@@ -429,7 +428,7 @@ So far the only text file we've been working with is our cheat sheet. Now, this 
 
 Let's download the data we're going to work with:
 
-[Download nypl_items.csv](../nypl_items.csv)
+[Download nypl_items.csv](nypl_items.csv)
 
 Our data set is a list of public domain items from the New York Public Library. It's in .csv format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
@@ -577,59 +576,7 @@ $ mv nypl_items.csv databases
 ![Searching a text file with grep](sections/images/grep.gif)
 
 ---
-# Searching text data
 
-So we've cleaned our data set, but how do we find entries that use a particular term?
-
-Let's say I want to find all the entries in our data set that use the term "Paris."
-
-Here we can use the `grep` command. `grep` stands for "global regular expression print." The `grep` command processes text line by line and prints any lines which match a specified pattern. Regular expressions are infamously human-illegible commands that use character by character matching to return a pattern. `grep` gives us access to the power of regular expressions as we search for text.
-
-```console
-$ cat nypl_items.csv | grep -i "paris"
-...
-```
-
-This will print out all the lines that contain the word "Paris." (The `-i` flag makes the command ignore capitalization.) Let's use our `wc -l` command to see how many lines that is:
-
-```console
-$ cat nypl_items.csv | grep -i "paris" | wc -l
-191
-```
-
-Here we have asked `cat` to read nypl_items.csv, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word "paris." We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
-
-## Challenge
-
-Use the `grep` command to explore our .csv file a bit. What areas are best covered by the data set?
-
-If you want to get a little more milage out of the grep command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
-
-## Before we finish
-
-Before you leave today, we're going to prepare a little for our upcoming sessions. In your projects folder on the desktop, we're going to create a folder to house our cheat sheets for the week, as well as a new folder for the upcoming databases workshop.
-
-```console
-$ pwd
-/Users/jojo/Desktop/projects
-$ mkdir cheatsheets
-$ mkdir databases
-```
-
-Then move your `cheat-sheet.txt` file into your `cheatsheets` folder and your `nypl_items.csv` into your `databases` folder with the `mv` command:
-
-```console
-$ mv cheat-sheet.txt cheatsheets
-$ mv nypl_items.csv databases
-```
-
----
-
-## Example
-
-![Searching a text file with grep](sections/images/grep.gif)
-
----
 # What we've learned
 
 You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you move forward through the week—you'll work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) and you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) and building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css).
