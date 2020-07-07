@@ -221,17 +221,17 @@ Go ahead and use pointing and clicking to navigate to your working directory—y
 
 ## Solution
 
-Type `pwd` to see where on your computer you are located 
-Type `cd name-of-your-folder` to enter a subfolder
-Type `ls` to see the content of that folder
-Type `cd ..` to leave that folder
-Type `pwd` to make sure you are back to the folder where you wish to be
-Type `cd ~` to go back to your home folder
-Type `pwd` to make sure you are in the folder where you wish to be
-Type `cd /` to go back to your root folder
-Type `ls` to see the content of folder you are currently in
-Type `pwd` to make sure you are in the folder where you wish to be
-Type `cd name-of-your-folder` to enter a subfolder
+Type `pwd` to see where on your computer you are located <br>
+Type `cd name-of-your-folder` to enter a subfolder <br>
+Type `ls` to see the content of that folder <br>
+Type `cd ..` to leave that folder <br>
+Type `pwd` to make sure you are back to the folder where you wish to be <br>
+Type `cd ~` to go back to your home folder <br>
+Type `pwd` to make sure you are in the folder where you wish to be <br>
+Type `cd /` to go back to your root folder <br>
+Type `ls` to see the content of folder you are currently in <br>
+Type `pwd` to make sure you are in the folder where you wish to be <br>
+Type `cd name-of-your-folder` to enter a subfolder <br>
 
 ![Navigating the command line](sections/images/nav.gif)
 
@@ -304,11 +304,11 @@ Try and create a sub-folder and file on your own!
 
 ## Solution
 
-Type `pwd` to see where on your computer you are located. If you are not in the "projects" folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation)
-Type `mkdir name-of-your-subfolder` to create a subfolder 
-Type `cd name-of-your-folder` to navigate to that folder
-Type `challenge.txt` to create a new text file 
-Type `ls` to check whether you created the file correctly
+Type `pwd` to see where on your computer you are located. If you are not in the "projects" folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
+Type `mkdir name-of-your-subfolder` to create a subfolder <br>
+Type `cd name-of-your-folder` to navigate to that folder <br>
+Type `challenge.txt` to create a new text file <br>
+Type `ls` to check whether you created the file correctly<br>
 
 ![Creating files and folders](sections/images/make-file-folder.gif)
 
@@ -606,7 +606,7 @@ Now is a good time to do a quick review!
 
 In this session, we learned:
 
-- how to use `touch` and `echo` to create files
+- how to use `touch` and `echo` to create files 
 - how to use `mkdir` to create folders
 - how to navigate our file structure by `cd`(change directory), `pwd` (print working directory), and `ls` (list)
 - how to use redirects (`>`) and pipes (`|`) to create a pipeline
