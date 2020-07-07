@@ -145,7 +145,7 @@ Your computer's files are organized in what's known as a hierarchical filesystem
 ```
 Users
 |
- —— jojokarlin
+ —— your-username
    |
     —— Applications
     —— Desktop
@@ -162,11 +162,11 @@ OK, let's try a command that tells us where we are in the filesystem:
 $ pwd
 ```
 
-You should get output like `/Users/jojo`. That means you're in the `jojo` directory in the `Users` folder inside the `/` or root directory. On Windows, your output would instead be `C:/Users/jojo`. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
+You should get output like `/Users/your-username`. That means you're in the `your-username` directory in the `Users` folder inside the `/` or root directory. On Windows, your output would instead be `C:/Users/your-username`. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
 
 The command `pwd` won't actually print anything except on your screen. This command is easier to grasp when we interpret "print" as "display."
 
-OK, we know where we are. But what if we want to know what files and folders are in the `jojo` directory, a.k.a. the working directory?
+OK, we know where we are. But what if we want to know what files and folders are in the `your-username` directory, a.k.a. the working directory?
 
 Try entering:
 
@@ -188,7 +188,7 @@ So how do we know it worked? That's right, let's use our `pwd` command again. We
 
 ```console
 $ pwd
-/Users/jojo/Desktop
+/Users/your-username/Desktop
 ```
 
 Now try `ls` again to see what's on your desktop. These three commands—`pwd`, `ls`, and `cd`—are the most commonly used in the terminal. Between them, you can orient yourself and move around.
@@ -211,7 +211,7 @@ cd ..
 
 which will move you one directory up in the filesystem. That's a `cd` with two periods after it.
 
-## Compare with the GUI
+### Compare with the GUI
 
 It's important to note that this is the same old information you can get by pointing and clicking displayed to you in a different way.
 
@@ -219,7 +219,19 @@ Go ahead and use pointing and clicking to navigate to your working directory—y
 
 ---
 
-## Example:
+## Solution
+
+Type `pwd` to see where on your computer you are located 
+Type `cd name-of-your-folder` to enter a subfolder
+Type `ls` to see the content of that folder
+Type `cd ..` to leave that folder
+Type `pwd` to make sure you are back to the folder where you wish to be
+Type `cd ~` to go back to your home folder
+Type `pwd` to make sure you are in the folder where you wish to be
+Type `cd /` to go back to your root folder
+Type `ls` to see the content of folder you are currently in
+Type `pwd` to make sure you are in the folder where you wish to be
+Type `cd name-of-your-folder` to enter a subfolder
 
 ![Navigating the command line](sections/images/nav.gif)
 
@@ -234,7 +246,7 @@ First, make sure you're in the home directory:
 
 ```console
 $ pwd
-/Users/jojo
+/Users/your-username
 ```
 
 Let's move to the Desktop folder, or "change directory" with `cd`:
@@ -265,7 +277,7 @@ First, let's check to make sure we're still in the Desktop folder with `pwd`:
 
 ```console
 $ pwd
-/Users/jojo/Desktop
+/Users/your-username/Desktop
 ```
 
 Once you've double-checked you're in Desktop, we'll use the `mkdir` or "make directory" command to make a folder called "projects":
@@ -279,14 +291,24 @@ Now run `ls` to see if a projects folder has appeared. Once you confirm that the
 ```console
 $ cd projects
 $ pwd
-/Users/jojo/Desktop/projects
+/Users/your-username/Desktop/projects
 ```
 
 OK, now you've got a projects folder that you can use throughout the Institute. It should be visible on your graphical desktop, just like the `foo.txt` file we created earlier.
 
 ---
 
-## Example
+## Challenge
+
+Try and create a sub-folder and file on your own! 
+
+## Solution
+
+Type `pwd` to see where on your computer you are located. If you are not in the "projects" folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation)
+Type `mkdir name-of-your-subfolder` to create a subfolder 
+Type `cd name-of-your-folder` to navigate to that folder
+Type `challenge.txt` to create a new text file 
+Type `ls` to check whether you created the file correctly
 
 ![Creating files and folders](sections/images/make-file-folder.gif)
 
@@ -316,7 +338,7 @@ Now let's check the contents of the directory:
 
 ```console
 $ pwd
-/Users/jojo/projects
+/Users/your-username/projects
 $ ls
 cheat-sheet.txt
 ```
@@ -354,19 +376,21 @@ The challenge for this section will be using a text editor, specifically Visual 
 
 You *could* use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in Mac OSX, or via the Windows button in Windows—and then click "File" and then "Open" from the drop-down menu and navigate to your Desktop folder and click to open the cheat-sheet.txt file.
 
-*Or*, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command in the command line:
+*Or*, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line.
 
-```console
-$ code cheat-sheet.txt
-```
-
-Now that you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
+Once you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
 Save the file.
 
-Once you're done, check the contents of the file on the command line with the `cat` command:
+Once you're done, check the contents of the file on the command line with the `cat` command followed by the name of your file. 
 
-```console
+## Solution
+
+1. ```console
+$ code cheat-sheet.txt
+```
+
+2. ```console
 $ cat cheat-sheet.txt
 My Institute Cheat Sheet
 
@@ -378,9 +402,6 @@ change directory to home folder
 
 ...
 ```
-
----
-
 ## Example
 
 ![Creating a Cheat Sheet](/sections/images/cheat-sheet.gif)
@@ -475,7 +496,7 @@ $ tail nypl_items.csv
 
 These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
 
-## Interlude for Jojo's favorite command line feature: tab completion
+## Interlude for a favorite command line feature: tab completion
 
 When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes `tab` completion, stage right!
 
@@ -557,7 +578,7 @@ Before you leave today, we're going to prepare a little for our upcoming session
 
 ```console
 $ pwd
-/Users/jojo/Desktop/projects
+/Users/your-username/Desktop/projects
 $ mkdir cheatsheets
 $ mkdir databases
 ```
