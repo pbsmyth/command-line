@@ -404,9 +404,6 @@ change directory to home folder
 
 ...
 ```
-## Example
-
-![Creating a Cheat Sheet](/sections/images/cheat-sheet.gif)
 
 ---
 # Pipes
@@ -537,15 +534,18 @@ $ cat nypl_items.csv | uniq -d
 
 The `uniq` command with the `-d` flag prints out the lines that have duplicates.
 
-### Challenge
+![exploring data](sections/images/data.gif)
+
+## Challenge
 
 Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: [redirects](07-creating_a_cheat_sheet.md#redirect-) are your friend.)
 
----
+## Solution
 
-![exploring data](sections/images/data.gif)
+Type `pwd` to see where on your computer you are located. If you are not in the "projects" folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
+Type `ls` to check whether the file `nypl_items.csv` is in your projects folder <br>
+Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new version of the `nypl_items.csv` file with the duplicated lines removed.
 
----
 # Searching text data
 
 So we've cleaned our data set, but how do we find entries that use a particular term?
@@ -568,35 +568,16 @@ $ cat nypl_items.csv | grep -i "paris" | wc -l
 
 Here we have asked `cat` to read nypl_items.csv, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word "paris." We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
 
+## Example
+
+![Searching a text file with grep](sections/images/grep.gif)
+
 ## Challenge
 
 Use the `grep` command to explore our .csv file a bit. What areas are best covered by the data set?
 
+## Solution
 If you want to get a little more milage out of the grep command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
-
-## Before we finish
-
-Before you leave today, we're going to prepare a little for our upcoming sessions. In your projects folder on the desktop, we're going to create a folder to house our cheat sheets for the week, as well as a new folder for the upcoming databases workshop.
-
-```console
-$ pwd
-/Users/your-username/Desktop/projects
-$ mkdir cheatsheets
-$ mkdir databases
-```
-
-Then move your `cheat-sheet.txt` file into your `cheatsheets` folder and your `nypl_items.csv` into your `databases` folder with the `mv` command:
-
-```console
-$ mv cheat-sheet.txt cheatsheets
-$ mv nypl_items.csv databases
-```
-
----
-
-## Example
-
-![Searching a text file with grep](sections/images/grep.gif)
 
 ---
 
