@@ -386,11 +386,13 @@ Once you're done, check the contents of the file on the command line with the `c
 
 ## Solution
 
-1. ```console
+- Step 1 
+```console
 $ code cheat-sheet.txt
 ```
 
-2. ```console
+- Step 2 
+ ```console
 $ cat cheat-sheet.txt
 My Institute Cheat Sheet
 
