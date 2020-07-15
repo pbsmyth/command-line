@@ -68,8 +68,8 @@ The command line (of computers today) receives these commands as text that is ty
 
 ## Acknowledgements
 
-- Jojo Karlin,
-- Mary Catherine McKinniburgh, 
-- Patrick Smyth, 
-- Kelsey Chatlosh, 
+- Jojo Karlin
+- Mary Catherine McKinniburgh 
+- Patrick Smyth
+- Kelsey Chatlosh 
 - Stefano Morello
