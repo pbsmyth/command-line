@@ -69,8 +69,8 @@ The command line (of computers today) receives these commands as text that is ty
 
 ## Acknowledgements
 
-- Jojo Karlin
-- Mary Catherine McKinniburgh 
-- Patrick Smyth
-- Kelsey Chatlosh 
-- Stefano Morello
+- Current Author: Stefano Morello
+- Contributing Author: Kelsey Chatlosh
+- Contributing Author: Patrick Smyth
+- Contributing Author: Mary Catherine McKinniburgh
+- Contributing Author: Jojo Karlin
