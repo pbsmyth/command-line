@@ -12,6 +12,7 @@
 - [Ryans Tutorials, Linux Tutorial](https://ryanstutorials.net/linuxtutorial/)
 - [The Linux command line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 - [Data Science at the Command Line](https://www.datascienceatthecommandline.com/)
+- [BashGuide](http://mywiki.wooledge.org/BashGuide)
 
 ## Projects or Challenges to Try
 
