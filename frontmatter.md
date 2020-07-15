@@ -68,5 +68,8 @@ The command line (of computers today) receives these commands as text that is ty
 
 ## Acknowledgements
 
-- Current Author: Stefano Morello
-- Contributing Authors: Kelsey Chatlosh, Patrick Smyth, Mary Catherine McKinniburgh, Jojo Karlin
+- Jojo Karlin,
+- Mary Catherine McKinniburgh, 
+- Patrick Smyth, 
+- Kelsey Chatlosh, 
+- Stefano Morello
