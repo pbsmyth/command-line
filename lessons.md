@@ -17,12 +17,12 @@ Let's take a quick moment to discuss text and text editors.
 Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in *Textual Scholarship*, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
 ![Word Doc](sections/images/worddoc.png)
-Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/WordProcessorExample.docx?raw=true) to dowload the Word file.
+Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/WordProcessorExample.docx?raw=true) to dowload the Word file.,<br>
 
 If you ask the command line to read that file, this Word .docx file will look something like this
 
 ![Word Doc as visualized by Command Line](sections/images/CatWordDoc.png)<br>
-Users with visual disabilities, [click here](PK.md) to dowload the text file.
+Users with visual disabilities, [click here](PK.md) to dowload the text file.<br>
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
