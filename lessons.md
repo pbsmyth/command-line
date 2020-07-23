@@ -571,11 +571,7 @@ If you want to get a little more milage out of the grep command, refer to [this 
 
 # What we've learned
 
-<<<<<<< HEAD
 You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) or you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) or building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css).
-=======
-You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you move forward through the other workshops—you'll work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) and you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) and building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css).
->>>>>>> 92a022664f3af4afc0ed5b3f8f83b8d065a3fffc
 
 Now is a good time to do a quick review!
 
