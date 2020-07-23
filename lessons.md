@@ -6,7 +6,7 @@ The command line (of computers today) receives these commands as text that is ty
 
 ## What does "text-based" mean?
 
-For those of us comfortable reading and writing, the idea of "text-based" in the context of computers can seem a bit strange. As we start to get comfortable typing commands to the computer, it's important to distinguish "text" from word processed, desktop publishing (think Microsoft Word or Google Docs) in which we use software that displays what we want to produce without showing us the code the computer is reading to render the formatting. Plain text has the advantage of being manipulable in different contexts.
+For those of us comfortable reading and writing, the idea of "text-based" in the context of computers can seem a bit strange. As we start to get comfortable typing commands to the computer, it's important to distinguish "text" from word processed, desktop publishing. In the latter case, we use software (think Microsoft Word or Google Docs) that displays what we want to produce without showing us the code the computer is reading to render the formatting. On the other hand, while less pretty to look at, plain text has the advantage of being manipulable in different contexts.
 
 Let's take a quick moment to discuss text and text editors.
 
@@ -34,13 +34,13 @@ According to the [Unicode Standard](https://www.unicode.org/versions/Unicode12.1
 
 > Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.
 
-Plain text has two main properties in regard to rich text:
-
-> plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable.
-
 Plain text shows its cards—if it's marked up, the markup will be human readable. Plain text can be moved between programs more fluidly and can respond to programmatic manipulations. Because it is not tied to a particular font or color or placement, plain text can be styled externally.
 
 A counterpoint to plain text is rich text (sometimes denoted by the Microsoft rich text format .rtf file extension) or "enriched text" (sometimes seen as an option in email programs). In rich text files, plain text is elaborated with formatting specific to the program in which they are made.
+
+Plain text has two main properties in regard to rich text:
+
+> plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable.
 
 ## Choosing a text editor
 
@@ -82,7 +82,7 @@ If you're using macOS:
 
 1. Click the Spotlight Search button (the magnifying glass) in the top right of your desktop.
 
-2. Type "terminal" into the bar that appears.
+2. Type `terminal` into the bar that appears.
 
 3. Select the first item that appears in the list.
 
@@ -90,27 +90,29 @@ If you're using macOS:
 
     ![Terminal in Mac OS](sections/images/osx_term.png)
 
-When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command.
+Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
 
-*You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.*
-
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press "Command (⌘)" and the space bar at the same time to pull up Spotlight search, start typing "Terminal," and then hit "Enter" to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press `Command (⌘)` and the space bar at the same time to pull up Spotlight search, start typing `Terminal,` and then hit `Enter` to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
 
 ## Windows
 
-We won't be using Windows's own non-UNIX version of the command line. We installed Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session.
+We won't be using Windows's own non-UNIX version of the command line. We installed Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session. Git Bash includes core utilities available on Linux that are not available on Windows. 
 
 1. Look for Git Bash in your programs menu and open.
 
-2. If you can't find the git folder, just type "git bash" in the search box and select "git bash" when it appears.
+2. If you can't find the git folder, just type `git bash` in the search box and select `git bash` when it appears.
 
 3. Open the program.
 
 4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
 
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press `Win (⊞ )` to open the Start menu, start typing `git bash` and then hit `Enter` to open a git bash window. This will pull up a command window without touching your mousepad.
+
 ## Command prompt `$`
 
 `$`, which we will refer to as the "command prompt," is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
+
+When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command.
 
 In the next section, we'll learn how to navigate the filesystem in the command line.
 
@@ -120,7 +122,7 @@ In the next section, we'll learn how to navigate the filesystem in the command l
 
 Go slow at first and check your spelling!
 
-One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind today, this week, and your whole life. If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
+One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! *Keep this in mind!* If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
 
 Keep in mind that the command line and file systems on macOS and Unix are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
 
@@ -140,7 +142,7 @@ The `whoami` command should print out your username. Congrats, you've executed y
 
 OK, we're going to try another command. But first, let's make sure we understand some things about how your computer's filesystem works.
 
-Your computer's files are organized in what's known as a hierarchical filesystem. That means there's a top level or "root" folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. You can draw these relationships in a tree:
+Your computer's files are organized in what's known as a hierarchical filesystem. That means there's a top level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. You can draw these relationships in a tree:
 
 ```
 Users
@@ -233,8 +235,6 @@ Type `ls` to see the content of folder you are currently in <br>
 Type `pwd` to make sure you are in the folder where you wish to be <br>
 Type `cd name-of-your-folder` to enter a subfolder <br>
 
-![Navigating the command line](sections/images/nav.gif)
-
 ---
 # Creating files and folders
 
@@ -261,13 +261,15 @@ Once you've made sure you're in the Desktop folder with `pwd`, let's try a new c
 touch foo.txt
 ```
 
-If the command succeeds, you won't see any output. Now move the terminal window and look at your "real" desktop, the graphical one. See any differences? If the command was successful and you were in the right place, you should see an empty text file called "foo.txt" on the desktop. Pretty cool, right?
+The `touch` command is used to create a file without any content. This command can be used when you don’t have any data yet to store in it.
+
+If the command succeeds, you won't see any output. Now move the terminal window and look at your "real" desktop, the graphical one. See any differences? If the command was successful and you were in the right place, you should see an empty text file called `foo.txt` on the desktop. Pretty cool, right?
 
 ## Handy tip: up arrow
 
-Let's say you liked that "foo.txt" file so much you'd like another! In the terminal window, press the "up arrow" on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit "Enter" to create another "foo.txt," (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to change the file name to "foot.txt" to create something different.
+Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the `up arrow` on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit `Ente` to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to change the file name to `foot.txt` to create something different.
 
-As we start to write more complicated and longer commands in our terminal, the "up arrow" is a great shortcut so you don't have to spend lots of time typing.
+As we start to write more complicated and longer commands in our terminal, the `up arrow` is a great shortcut so you don't have to spend lots of time typing.
 
 ## Creating folders
 
@@ -280,7 +282,7 @@ $ pwd
 /Users/your-username/Desktop
 ```
 
-Once you've double-checked you're in Desktop, we'll use the `mkdir` or "make directory" command to make a folder called "projects":
+Once you've double-checked you're in Desktop, we'll use the `mkdir` or "make directory" command to make a folder called `projects`:
 
 ```console
 mkdir projects
@@ -304,13 +306,11 @@ Try and create a sub-folder and file on your own!
 
 ## Solution
 
-Type `pwd` to see where on your computer you are located. If you are not in the "projects" folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
+Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
 Type `mkdir name-of-your-subfolder` to create a subfolder <br>
 Type `cd name-of-your-folder` to navigate to that folder <br>
 Type `challenge.txt` to create a new text file <br>
 Type `ls` to check whether you created the file correctly<br>
-
-![Creating files and folders](sections/images/make-file-folder.gif)
 
 ---
 # Creating a cheat sheet
@@ -362,11 +362,11 @@ As you can see, the `cat` command prints the contents of a file to the screen. `
 
 Your cheat sheet is titled `cheat-sheet.txt` instead of `cheat sheet.txt` for a reason. Can you guess why?
 
-Try to make a file titled `cheat sheet.txt` and report to the class what happens.
+Try to make a file titled `cheat sheet.txt` and observe what happens.
 
 Now imagine you're attempting to open a very important data file using the command line that is titled `cheat sheet.txt`
 
-For your digital best practices, we recommend making sure that file names contain no spaces—you can use creative capitalization, dashes, or underscores instead. Just keep in mind that the macOS and Unix file systems are usually pre-configured as cAsE-pReSeRvInG, which means that capitalization matters when you type commands to navigate between or do things to directories and files.
+For your digital best practices, we recommend making sure that file names contain no spaces—you can use creative capitalization, dashes, or underscores instead. Just keep in mind that the macOS and Unix file systems are usually pre-configured as cAsE-pReSeRvInG, which means that capitalization matters when you type commands to navigate between or do things to directories and files. You may also want to avoid using periods in your file names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually `file.pdf`). 
 
 ## Using a text editor
 
@@ -374,9 +374,9 @@ The challenge for this section will be using a text editor, specifically Visual 
 
 ## Challenge
 
-You *could* use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in Mac OSX, or via the Windows button in Windows—and then click "File" and then "Open" from the drop-down menu and navigate to your Desktop folder and click to open the cheat-sheet.txt file.
+You *could* use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in Mac OSX, or via the Windows button in Windows—and then click `File` and then `Open` from the drop-down menu and navigate to your Desktop folder and click to open the cheat-sheet.txt file.
 
-*Or*, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line.
+*Or*, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Remember, the command `code` prompts your computer to open Visual Code.)
 
 Once you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
@@ -419,7 +419,7 @@ $ echo "Hello from the command line" | wc -w
 5
 ```
 
-In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered.
+In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands. See the [glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md) for more information about flags and options.
 
 Let's try another. What if we wanted to put the commands in our cheat sheet in alphabetical order?
 
@@ -434,12 +434,6 @@ You should see the contents of the cheat sheet file with each line rearranged in
 ```console
 cat cheat-sheet.txt | sort > new-cheat-sheet.txt
 ```
-
----
-
-## Example
-
-![Pipes example](sections/images/pipes.gif)
 
 ---
 # Exploring text data
@@ -505,7 +499,7 @@ In other words, anytime in the command line you can type as much of the file or 
 
 ## Note: Clearing Text
 
-If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the `command` and `k` keys to clear the scrollback. In macOS terminal, clicking the `command` and `l` keys will clear the output from your most recent command.
+If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the `command` and `k` keys to clear the scrollback. Pressing the `command` and `l` keys in MacOs, or `CTRL` and `l` in Windows will clear the output from your most recent command.
 
 ## Cleaning the data
 
@@ -516,7 +510,7 @@ $ cat nypl_items.csv | wc -l
 100001
 ```
 
-This tells us there are 100,001 lines in our file. The `wc` tool stands for "word count," but it can also count characters and lines in a file. We tell `wc` to count lines by using the `-l` flag. If we wanted to count characters, we could use `wc -m`. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands. See the [glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md) for more information about flags and options.
+This tells us there are 100,001 lines in our file. The `wc` tool stands for "word count," but it can also count characters and lines in a file. We tell `wc` to count lines by using the `-l` flag. If we wanted to count characters, we could use `wc -m`. 
 
 To find and remove duplicate lines, we can use the `uniq` command. Let's try it out:
 
@@ -534,15 +528,13 @@ $ cat nypl_items.csv | uniq -d
 
 The `uniq` command with the `-d` flag prints out the lines that have duplicates.
 
-![exploring data](sections/images/data.gif)
-
 ## Challenge
 
 Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: [redirects](07-creating_a_cheat_sheet.md#redirect-) are your friend.)
 
 ## Solution
 
-Type `pwd` to see where on your computer you are located. If you are not in the "projects" folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
+Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
 Type `ls` to check whether the file `nypl_items.csv` is in your projects folder <br>
 Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new version of the `nypl_items.csv` file with the duplicated lines removed.
 
@@ -550,27 +542,23 @@ Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new ve
 
 So we've cleaned our data set, but how do we find entries that use a particular term?
 
-Let's say I want to find all the entries in our data set that use the term "Paris."
+Let's say I want to find all the entries in our data set that use the term `Paris`.
 
-Here we can use the `grep` command. `grep` stands for "global regular expression print." The `grep` command processes text line by line and prints any lines which match a specified pattern. Regular expressions are infamously human-illegible commands that use character by character matching to return a pattern. `grep` gives us access to the power of regular expressions as we search for text.
+Here we can use the `grep` command. `grep` stands for "global regular expression print." The `grep` command processes text line by line and prints any lines which match a specified pattern. Regular expressions are special strings representing a pattern to be matched in a search operation. `grep` gives us access to the power of regular expressions as we search for text.
 
 ```console
 $ cat nypl_items.csv | grep -i "paris"
 ...
 ```
 
-This will print out all the lines that contain the word "Paris." (The `-i` flag makes the command ignore capitalization.) Let's use our `wc -l` command to see how many lines that is:
+This will print out all the lines that contain the word `Paris`. (The `-i` flag makes the command ignore capitalization.) Let's use our `wc -l` command to see how many lines that is:
 
 ```console
 $ cat nypl_items.csv | grep -i "paris" | wc -l
 191
 ```
 
-Here we have asked `cat` to read nypl_items.csv, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word "paris." We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
-
-## Example
-
-![Searching a text file with grep](sections/images/grep.gif)
+Here we have asked `cat` to read nypl_items.csv, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word `paris`. We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
 
 ## Challenge
 
@@ -583,7 +571,7 @@ If you want to get a little more milage out of the grep command, refer to [this 
 
 # What we've learned
 
-You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you move forward through the week—you'll work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) and you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) and building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css).
+You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) or you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) or building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css).
 
 Now is a good time to do a quick review!
 
