@@ -14,7 +14,7 @@ Let's take a quick moment to discuss text and text editors.
 
 ## What is text?
 
-Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in *Textual Scholarship*, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
+Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in *Textual Scholarship*, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
 ![Word Doc](sections/images/worddoc.png)
 Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/WordProcessorExample.docx?raw=true) to dowload the Word file.,<br>
@@ -271,7 +271,7 @@ As we start to write more complicated and longer commands in our terminal, the "
 
 ## Creating folders
 
-OK, so we're going to be doing a lot of work during the Digital Research Institute. Let's create a project folder in our Desktop so that we can keep all our work in one place.
+OK, so we're going to be doing a lot of work during the Digital Humanities Research Institute. Let's create a project folder in our Desktop so that we can keep all our work in one place.
 
 First, let's check to make sure we're still in the Desktop folder with `pwd`:
 
@@ -466,7 +466,7 @@ You can then navigate to that `projects` folder and use the `ls` command to chec
 
 ## Viewing data in the command line
 
-Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click `Control` and `C` on your keyboard to cancel the output if it's taking too long.)
+Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click `Control` + `C` on your keyboard to cancel the output if it's taking too long.)
 
 Instead, let's use another tool, the `less` command, to get the data one page at a time:
 
@@ -583,7 +583,7 @@ If you want to get a little more milage out of the grep command, refer to [this 
 
 # What we've learned
 
-You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you move forward through the week—you'll work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) and you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) and building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css).
+You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you move forward through the other workshops—you'll work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) and you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) and building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css).
 
 Now is a good time to do a quick review!
 
