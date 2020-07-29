@@ -202,13 +202,13 @@ Before we move on, let's take a minute to navigate through our computer's file s
 Use the three commands you've just learned—`pwd`, `ls` and `cd`—eight (8) times each. Go poking around your Photos folder, or see what's so special about that root `/` directory. When you're done, come back to the home folder with
 
 ```console
-cd ~
+$ cd ~
 ```
 
 (That's a tilde, on the top left of your keyboard.) One more command you might find useful is
 
 ```console
-cd ..
+$ cd ..
 ```
 
 which will move you one directory up in the filesystem. That's a `cd` with two periods after it.
@@ -250,13 +250,13 @@ $ pwd
 Let's move to the Desktop folder, or "change directory" with `cd`:
 
 ```console
-cd Desktop
+$ cd Desktop
 ```
 
 Once you've made sure you're in the Desktop folder with `pwd`, let's try a new command:
 
 ```console
-touch foo.txt
+$ touch foo.txt
 ```
 
 The `touch` command is used to create a file without any content. This command can be used when you don’t have any data yet to store in it.
@@ -283,7 +283,7 @@ $ pwd
 Once you've double-checked you're in Desktop, we'll use the `mkdir` or "make directory" command to make a folder called `projects`:
 
 ```console
-mkdir projects
+$ mkdir projects
 ```
 
 Now run `ls` to see if a projects folder has appeared. Once you confirm that the projects folder was created successfully, `cd` into it.
@@ -329,7 +329,7 @@ Hello from the command line
 By default, the echo command just prints out the text we give it. Let's use it to create a file with some text in it:
 
 ```console
-echo "This is my cheat sheet" > cheat-sheet.txt
+$ echo "This is my cheat sheet" > cheat-sheet.txt
 ```
 
 Now let's check the contents of the directory:
@@ -350,7 +350,7 @@ If you want to add text to a file but *not* overwrite it, you can use the `>>` c
 Let's check if there's any text in cheat-sheet.txt.
 
 ```console
-cat cheat-sheet.txt
+$ cat cheat-sheet.txt
 This is my cheat sheet
 ```
 
@@ -424,13 +424,13 @@ Let's try another. What if we wanted to put the commands in our cheat sheet in a
 Use `pwd` and `cd` to make sure you're in the folder with your cheat sheet. Then try:
 
 ```console
-cat cheat-sheet.txt | sort
+$ cat cheat-sheet.txt | sort
 ```
 
 You should see the contents of the cheat sheet file with each line rearranged in alphabetical order. If you wanted to save this output, you could use a `>` to print the output to a file, like this:
 
 ```console
-cat cheat-sheet.txt | sort > new-cheat-sheet.txt
+$ cat cheat-sheet.txt | sort > new-cheat-sheet.txt
 ```
 
 ---
@@ -451,7 +451,7 @@ Once the file is downloaded, move it from your `Downloads` folder to the `projec
 To move this file using the command line, you first need to navigate to your `Downloads` folder where that file is saved. Then type the `mv` command followed by the name of the file you want to move and then the file path to your `projects` folder on your desktop, which is where you want to move that file to (note that `~` refers to your home folder):
 
 ```console
-mv nypl_items.csv ~/Desktop/projects/
+$ mv nypl_items.csv ~/Desktop/projects/
 ```
 
 You can then navigate to that `projects` folder and use the `ls` command to check that the file is now there.
