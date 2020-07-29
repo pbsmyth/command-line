@@ -116,19 +116,19 @@ When you see the `$`, you're in the right place. We call the `$` the command pro
 
 In the next section, we'll learn how to navigate the filesystem in the command line.
 
+# Prefatory Pro Tips
+
+* Go slow at first and check your spelling!
+
+* One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! *Keep this in mind!* If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
+
+* Keep in mind that the command line and file systems on macOS and Unix are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
+
+* Also, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
+
 # Navigation
 
-## Prefatory pro tips
-
-Go slow at first and check your spelling!
-
-One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! *Keep this in mind!* If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
-
-Keep in mind that the command line and file systems on macOS and Unix are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
-
-Also, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
-
-### Getting started: know thyself
+## Getting started: know thyself
 
 You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press the `enter` key:
 
@@ -218,8 +218,6 @@ which will move you one directory up in the filesystem. That's a `cd` with two p
 It's important to note that this is the same old information you can get by pointing and clicking displayed to you in a different way.
 
 Go ahead and use pointing and clicking to navigate to your working directory—you can get there a few ways, but try starting from "My Computer" and clicking down from there. You'll notice that the folder names should match the ones that the command line spits out for you, since it's the same information! We're just using a different mode of navigation around your computer to see it.
-
----
 
 ## Solution
 
@@ -489,18 +487,6 @@ $ tail nypl_items.csv
 
 These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
 
-## Interlude for a favorite command line feature: tab completion
-
-When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes `tab` completion, stage right!
-
-When you need to type out a file or folder name—for example, the name of that csv file we've been working with: nypl_items.csv—in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the `tab` key. And voilà! Clicking that `tab` key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory.
-
-In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and `tab` complete the rest!
-
-## Note: Clearing Text
-
-If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the `command` and `k` keys to clear the scrollback. Pressing the `command` and `l` keys in MacOs, or `CTRL` and `l` in Windows will clear the output from your most recent command.
-
 ## Cleaning the data
 
 We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our .csv file:
@@ -537,6 +523,20 @@ Use the commands you've learned so far to create a new version of the `nypl_item
 Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
 Type `ls` to check whether the file `nypl_items.csv` is in your projects folder <br>
 Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new version of the `nypl_items.csv` file with the duplicated lines removed.
+
+# Interlude 
+
+## A Favorite Command Line Feature: Tab Completion
+
+When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes `tab` completion, stage right!
+
+When you need to type out a file or folder name—for example, the name of that csv file we've been working with: nypl_items.csv—in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the `tab` key. And voilà! Clicking that `tab` key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory.
+
+In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and `tab` complete the rest!
+
+## Clearing Text
+
+If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the `command` and `k` keys to clear the scrollback. Pressing the `command` and `l` keys in MacOs, or `CTRL` and `l` in Windows will clear the output from your most recent command.
 
 # Searching text data
 

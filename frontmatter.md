@@ -2,13 +2,7 @@
 
 ## Abstract
 
-As most of us have to work with computers and digital devices on a daily basis, it's likely that we have figured out ways to interact with them. Whether that involves avoiding them as much as possible or constantly testing new software, we likely have some ideas about how we feel comfortable getting things done. How would you show a person who had never seen a computer, say [Kimmy Schmidt](https://youtu.be/LIdFa1qLgNQ) or [Brendan Fraser in *Blast from the Past*](https://youtu.be/Xq29uTtKW4M), how to *do* something on your computer?
-
-Many of us would explain what a screen and a cursor are, and then show how to point and click on icons. This approach relies on a graphical user interface, or GUI (pronounced "gooey!").
-
-Today we're going to explore another way to make your computer do things: through the command line. Instead of pointing and clicking, we'll be typing in either git bash (Windows) or terminal (macOS) to tell the computer directly what task we'd like it to perform.
-
-While this new technique can seem intimidating if you haven't used text-based interfaces before, luckily, you can use 90% of the functionality of the command line by becoming comfortable with a very small set of the most common commands.
+If asked to show someone who has never seen a computer how to *do* something on your computer, many of us would explain what a screen and a cursor are, and then show how to point and click on icons. This approach relies on a graphical user interface, or GUI (pronounced "gooey!"). Today we're going to explore another way to make your computer do things: through the command line. Instead of pointing and clicking, we'll be typing in either git bash (Windows) or terminal (macOS) to tell the computer directly what task we'd like it to perform.
 
 ## Learning Objectives
 
@@ -74,3 +68,4 @@ If commands are the ways in which a user communicates with machines, the command
 - Contributing Author: Patrick Smyth
 - Contributing Author: Mary Catherine McKinniburgh
 - Contributing Author: Jojo Karlin
+- Reviewer: Di Yoong
