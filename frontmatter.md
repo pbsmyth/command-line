@@ -31,9 +31,8 @@ To complete the workshop, you will need:
 
 ### Pre-reading suggestions
 
-- [Neal Stephenson, "In the Beginning Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html)
-- [Douglas Rushkoff, *Program or Be Programmed*](https://rushkoff.com/books/program-or-be-programmed/)
-- [Free Code Camp, A Brief History of the Command Line](https://www.freecodecamp.org/news/the-command-line-1fdbc692b3bf/) 
+- [Neal Stephenson's "In the Beginning... Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
+- [Douglas Rushkoff's *Program or Be Programmed*](https://rushkoff.com/books/program-or-be-programmed/) offers some reflections on how using the command line allows one to communicate in a less mediated way with their machines and the importance of doing so in the current technoscape.  
 
 ### Projects that use these skills
 
