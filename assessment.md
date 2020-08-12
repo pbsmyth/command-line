@@ -20,11 +20,7 @@ After completing the command line workshop, I would say that:
 
 ## Qualitative Self-Assessment
 
-What is the Command Line? How is it different from your text editor? 
-
-What is the difference between plain text and a Microsoft Word document? 
-
-When and why would you want to use the command line as opposed to your operating system's GUI? 
+TBD
 
 ## Feedback on this workshop
 
