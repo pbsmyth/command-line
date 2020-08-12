@@ -65,6 +65,8 @@ What is the difference between a plain text document and a rich text document? (
 * Rich text is styled text, _i.e.,_ plain text completed by information such as font size, format, and colors.*
 * One can't determine whether there is a difference betweeen the two without looking at their content.
 
+What is the Command Line? How is it different from your text editor?
+
 # Why is the command line useful?
 
 Initially, for some of us, the command line can feel a bit unfamiliar. Why step away from a point-and-click workflow? By using the command line, we move into an environment where we have more minute control over each task we'd like the computer to perform. Instead of ordering your food in a restaurant, you're stepping into the kitchen. It's more work, but there are also more possibilities.
@@ -250,6 +252,8 @@ What command do you run if you are trying to identify where in the filesystem yo
 * $ `pwd`*
 * $ `cd`
 * $ `whoami` 
+
+When and why would you want to use the command line as opposed to your operating system's GUI?
 
 # Creating files and folders
 
