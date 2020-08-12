@@ -17,7 +17,7 @@ Let's take a quick moment to discuss text and text editors.
 Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in *Textual Scholarship*, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
 ![Word Doc](sections/images/worddoc.png)
-Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/WordProcessorExample.docx?raw=true) to download the Word file.,<br>
+Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/WordProcessorExample.docx?raw=true) to download the Word file.<br>
 
 If you ask the command line to read that file, this Word .docx file will look something like this
 
@@ -55,6 +55,15 @@ Choosing a text editor has as much to do with personality as it does with functi
 For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across OSX, Windows, and Linux systems.
 
 You will have downloaded VS Code according to the [instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md) on the installations page. We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. In later workshops we will discuss syntax highlighting and version control, which Visual Studio Code supports. For now we will get back to working in the command line itself.
+
+## Evaluation
+
+What is the difference between a plain text document and a rich text document? (Select all that apply)
+
+* Plain text contains no formatting, only line breaks and spacing.*
+* Plain text cannot be marked up.
+* Rich text is styled text, _i.e.,_ plain text completed by information such as font size, format, and colors.*
+* One can't determine whether there is a difference betweeen the two without looking at their content.
 
 # Why is the command line useful?
 
@@ -233,7 +242,15 @@ Type `ls` to see the content of folder you are currently in <br>
 Type `pwd` to make sure you are in the folder where you wish to be <br>
 Type `cd name-of-your-folder` to enter a subfolder <br>
 
----
+## Evaluation
+
+What command do you run if you are trying to identify where in the filesystem you are currently located/working?
+
+* $ `ls` 
+* $ `pwd`*
+* $ `cd`
+* $ `whoami` 
+
 # Creating files and folders
 
 ## Creating a file
@@ -309,6 +326,15 @@ Type `mkdir name-of-your-subfolder` to create a subfolder <br>
 Type `cd name-of-your-folder` to navigate to that folder <br>
 Type `challenge.txt` to create a new text file <br>
 Type `ls` to check whether you created the file correctly<br>
+
+## Evaluation
+
+What does the `up arrow` command do?
+
+* It quits the Terminal/GitBash.
+* It undoes my last command.
+* It repeats my last command.*
+* It shows me what folder I am working in.
 
 ---
 # Creating a cheat sheet
@@ -403,7 +429,17 @@ change directory to home folder
 ...
 ```
 
----
+## Evaluation
+
+What does effect does the following command produce?
+`$ echo "Hello! My Name is Mark!" > introduction.txt` 
+
+* It adds the line "Hello! My Name is Mark!" to the existing content of the `introduction.txt` file.
+* It checks whether the content of the `introduction.txt` file contains the line "Hello! My Name is Mark!"
+* It replaces the content of the `introduction.txt` file with the line "Hello! My Name is Mark!"*
+* None of the above. 
+
+
 # Pipes
 
 So far, you've learned a number of commands and one special symbol, the `>` or redirect. Now we're going to learn another, the `|` or "pipe."
@@ -433,7 +469,14 @@ You should see the contents of the cheat sheet file with each line rearranged in
 $ cat cheat-sheet.txt | sort > new-cheat-sheet.txt
 ```
 
----
+## Evaluation
+
+What do pipes allow you to do?
+
+* Pipes let you take the output of one command and use it as the input for another.*
+* Pipes allow you to combine multiple commands in a single line.*
+* Pipes let you work on multiple files at the same time.
+
 # Exploring text data
 
 So far the only text file we've been working with is our cheat sheet. Now, this is where the command line can be a very powerful tool: let's try working with a large text file, one that would be too large to work with by hand.
@@ -524,6 +567,14 @@ Type `pwd` to see where on your computer you are located. If you are not in the 
 Type `ls` to check whether the file `nypl_items.csv` is in your projects folder <br>
 Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new version of the `nypl_items.csv` file with the duplicated lines removed.
 
+## Evaluation
+
+What do command line flags allow you to do? 
+
+* Flags allow you to earmark the file you are working on.
+* Flags are useful to create a new version of the file you are working on, while preserving the old version for future access.
+* Flags are a common way to specify options for command line programs.* 
+
 # Interlude 
 
 ## A Favorite Command Line Feature: Tab Completion
@@ -567,7 +618,15 @@ Use the `grep` command to explore our .csv file a bit. What areas are best cover
 ## Solution
 If you want to get a little more milage out of the grep command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
 
----
+## Evaluation
+
+Let's think about the `grep` command. 
+
+* It searches the given file for lines containing a match to the given strings or words.* 
+* It can be combined with other commands, so as to produce a search that matches their output.*
+* It produces a new file with the lines containing the strings or words you are searching.
+* It delete the strings or words you are searching from a file. 
+
 
 # What we've learned
 
