@@ -634,8 +634,6 @@ Let's think about the `grep` command.
 
 # What we've learned
 
-You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) or you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) or building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css).
-
 Now is a good time to do a quick review!
 
 In this session, we learned:
@@ -650,5 +648,3 @@ In this session, we learned:
 And we made a [cheat sheet](12-commands.md) for reference!
 
 When we started, we reviewed what text is—whether plain or enriched. We learned that text editors that don't fix formatting of font, color, and size, do allow for more flexible manipulation and multi-program use. If text is allowed to be a string of characters (and not specific characters chosen for their compliance with a designer's intention), that text can be fed through programs and altered with automated regularity. Text editors are different software than Bash (or Terminal), which is a text-based shell that allows you to interact directly with your operating system giving direct input and receiving output.
-
-Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
