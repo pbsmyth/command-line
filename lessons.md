@@ -60,10 +60,10 @@ You will have downloaded VS Code according to the [instructions](https://github.
 
 What is the difference between a plain text document and a rich text document? (Select all that apply)
 
-* Plain text contains no formatting, only line breaks and spacing.*
-* Plain text cannot be marked up.
-* Rich text is styled text, _i.e.,_ plain text completed by information such as font size, format, and colors.*
-* One can't determine whether there is a difference betweeen the two without looking at their content.
+- Plain text contains no formatting, only line breaks and spacing.*
+- Plain text cannot be marked up.
+- Rich text is styled text, _i.e.,_ plain text completed by information such as font size, format, and colors.*
+- One can't determine whether there is a difference betweeen the two without looking at their content.
 
 What is the Command Line? How is it different from your text editor?
 
@@ -129,13 +129,13 @@ In the next section, we'll learn how to navigate the filesystem in the command l
 
 # Prefatory Pro Tips
 
-* Go slow at first and check your spelling!
+- Go slow at first and check your spelling!
 
-* One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! *Keep this in mind!* If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
+- One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! _Keep this in mind!_ If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
 
-* Keep in mind that the command line and file systems on macOS and Unix are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
+- Keep in mind that the command line and file systems on macOS and Unix are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
 
-* Also, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
+- Also, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
 
 # Navigation
 
@@ -248,10 +248,10 @@ Type `cd name-of-your-folder` to enter a subfolder <br>
 
 What command do you run if you are trying to identify where in the filesystem you are currently located/working?
 
-* $ `ls` 
-* $ `pwd`*
-* $ `cd`
-* $ `whoami` 
+- $ `ls` 
+- $ `pwd`*
+- $ `cd`
+- $ `whoami` 
 
 When and why would you want to use the command line as opposed to your operating system's GUI?
 
@@ -317,8 +317,6 @@ $ pwd
 
 OK, now you've got a projects folder that you can use throughout the Institute. It should be visible on your graphical desktop, just like the `foo.txt` file we created earlier.
 
----
-
 ## Challenge
 
 Try and create a sub-folder and file on your own! 
@@ -335,12 +333,11 @@ Type `ls` to check whether you created the file correctly<br>
 
 What does the `up arrow` command do?
 
-* It quits the Terminal/GitBash.
-* It undoes my last command.
-* It repeats my last command.*
-* It shows me what folder I am working in.
+- It quits the Terminal/GitBash.
+- It undoes my last command.
+- It repeats my last command.*
+- It shows me what folder I am working in.
 
----
 # Creating a cheat sheet
 
 In this section, we'll create a text file that we can use as a cheat sheet. You can use it to keep track of all the awesome commands you're learning.
@@ -373,7 +370,7 @@ cheat-sheet.txt
 
 OK, so the file has been created. But what was the `>` in the command we used? On the command line, a `>` is known as a "redirect." It takes the output of a command and puts it in a file. Be careful, since it's possible to overwrite files with the `>` command.
 
-If you want to add text to a file but *not* overwrite it, you can use the `>>` command, known as the redirect and append command, instead. If there's already a file with text in it, this command can add text to the file *without* destroying and recreating it.
+If you want to add text to a file but _not_ overwrite it, you can use the `>>` command, known as the redirect and append command, instead. If there's already a file with text in it, this command can add text to the file _without_ destroying and recreating it.
 
 ## `Cat`
 
@@ -402,9 +399,9 @@ The challenge for this section will be using a text editor, specifically Visual 
 
 ## Challenge
 
-You *could* use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in Mac OSX, or via the Windows button in Windows—and then click `File` and then `Open` from the drop-down menu and navigate to your Desktop folder and click to open the cheat-sheet.txt file.
+You _could_ use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in Mac OSX, or via the Windows button in Windows—and then click `File` and then `Open` from the drop-down menu and navigate to your Desktop folder and click to open the cheat-sheet.txt file.
 
-*Or*, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Remember, the command `code` prompts your computer to open Visual Code.)
+_Or_, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Remember, the command `code` prompts your computer to open Visual Code.)
 
 Once you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
@@ -436,13 +433,14 @@ change directory to home folder
 ## Evaluation
 
 What does effect does the following command produce?
-`$ echo "Hello! My Name is Mark!" > introduction.txt` 
+```console
+$ echo "Hello! My Name is Mark!" > introduction.txt
+```
 
-* It adds the line "Hello! My Name is Mark!" to the existing content of the `introduction.txt` file.
-* It checks whether the content of the `introduction.txt` file contains the line "Hello! My Name is Mark!"
-* It replaces the content of the `introduction.txt` file with the line "Hello! My Name is Mark!"*
-* None of the above. 
-
+- It adds the line "Hello! My Name is Mark!" to the existing content of the `introduction.txt` file.
+- It checks whether the content of the `introduction.txt` file contains the line "Hello! My Name is Mark!"
+- It replaces the content of the `introduction.txt` file with the line "Hello! My Name is Mark!"*
+- None of the above. 
 
 # Pipes
 
@@ -477,9 +475,9 @@ $ cat cheat-sheet.txt | sort > new-cheat-sheet.txt
 
 What do pipes allow you to do?
 
-* Pipes let you take the output of one command and use it as the input for another.*
-* Pipes allow you to combine multiple commands in a single line.*
-* Pipes let you work on multiple files at the same time.
+- Pipes let you take the output of one command and use it as the input for another.*
+- Pipes allow you to combine multiple commands in a single line.*
+- Pipes let you work on multiple files at the same time.
 
 # Exploring text data
 
@@ -575,9 +573,9 @@ Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new ve
 
 What do command line flags allow you to do? 
 
-* Flags allow you to earmark the file you are working on.
-* Flags are useful to create a new version of the file you are working on, while preserving the old version for future access.
-* Flags are a common way to specify options for command line programs.* 
+- Flags allow you to earmark the file you are working on.
+- Flags are useful to create a new version of the file you are working on, while preserving the old version for future access.
+- Flags are a common way to specify options for command line programs.*
 
 # Interlude 
 
@@ -626,11 +624,10 @@ If you want to get a little more milage out of the grep command, refer to [this 
 
 Let's think about the `grep` command. 
 
-* It searches the given file for lines containing a match to the given strings or words.* 
-* It can be combined with other commands, so as to produce a search that matches their output.*
-* It produces a new file with the lines containing the strings or words you are searching.
-* It delete the strings or words you are searching from a file. 
-
+- It searches the given file for lines containing a match to the given strings or words.* 
+- It can be combined with other commands, so as to produce a search that matches their output.*
+- It produces a new file with the lines containing the strings or words you are searching.
+- It delete the strings or words you are searching from a file. 
 
 # What we've learned
 
