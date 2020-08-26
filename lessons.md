@@ -103,7 +103,7 @@ If you're using macOS:
 
 Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
 
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press `Command (⌘)` and the space bar at the same time to pull up Spotlight search, start typing `Terminal,` and then hit `Enter` to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>Command (⌘)</kbd> and the <kbd>space bar</kbd> at the same time to pull up Spotlight search, start typing `Terminal,` and then hit `Enter` to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
 
 ## Windows
 
@@ -117,7 +117,7 @@ We won't be using Windows's own non-UNIX version of the command line. We install
 
 4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
 
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press `Win (⊞ )` to open the Start menu, start typing `git bash` and then hit `Enter` to open a git bash window. This will pull up a command window without touching your mousepad.
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>Win (⊞)</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>Enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
 
 ## Command prompt `$`
 
@@ -141,13 +141,13 @@ In the next section, we'll learn how to navigate the filesystem in the command l
 
 ## Getting started: know thyself
 
-You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press the `enter` key:
+You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press the <kbd>enter</kbd> key:
 
 ```console
 $ whoami
 ```
 
-The `whoami` command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press `enter` on your keyboard, and receive output.
+The `whoami` command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press <kbd>enter</kbd> on your keyboard, and receive output.
 
 ## Orienting yourself in the command line: folders
 
@@ -216,7 +216,7 @@ Use the three commands you've just learned—`pwd`, `ls` and `cd`—eight (8) ti
 $ cd ~
 ```
 
-(That's a tilde, on the top left of your keyboard.) One more command you might find useful is
+(That's a tilde <kbd>~</kbd>, on the top left of your keyboard.) One more command you might find useful is
 
 ```console
 $ cd ..
@@ -286,9 +286,9 @@ If the command succeeds, you won't see any output. Now move the terminal window 
 
 ## Handy tip: up arrow
 
-Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the `up arrow` on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit `Ente` to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to change the file name to `foot.txt` to create something different.
+Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit <kbd>Enter</kbd> to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to change the file name to `foot.txt` to create something different.
 
-As we start to write more complicated and longer commands in our terminal, the `up arrow` is a great shortcut so you don't have to spend lots of time typing.
+As we start to write more complicated and longer commands in our terminal, the <kbd>up arrow</kbd> is a great shortcut so you don't have to spend lots of time typing.
 
 ## Creating folders
 
@@ -331,7 +331,7 @@ Type `ls` to check whether you created the file correctly<br>
 
 ## Evaluation
 
-What does the `up arrow` command do?
+What does the <kbd>up arrow</kbd> command do?
 
 - It quits the Terminal/GitBash.
 - It undoes my last command.
@@ -344,7 +344,7 @@ In this section, we'll create a text file that we can use as a cheat sheet. You 
 
 ## `Echo`
 
-Instead of creating an empty file like we did with `touch`, let's try creating a file with some text in it. But first, let's learn a new command: `echo`
+Instead of creating an empty file like we did with `touch`, let's try creating a file with some text in it. But first, let's learn a new command: `echo`.
 
 ```console
 $ echo "Hello from the command line"
@@ -503,7 +503,7 @@ You can then navigate to that `projects` folder and use the `ls` command to chec
 
 ## Viewing data in the command line
 
-Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click `Control` + `C` on your keyboard to cancel the output if it's taking too long.)
+Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click <kbd>Control</kbd> + <kbd>C</kbd> on your keyboard to cancel the output if it's taking too long.)
 
 Instead, let's use another tool, the `less` command, to get the data one page at a time:
 
@@ -516,9 +516,9 @@ $ less nypl_items.csv
 
 To view the file contents page by page, you may use the following keyboard shortcuts (that should work on Windows using Git Bash or on macOS terminal):
 
-Click the `f` key to view forward one page, or the `b` key to view back one page.
+Click the <kbd>f</kbd> key to view forward one page, or the <kbd>b</kbd> key to view back one page.
 
-Once you're done, click the `q` key to return to the command line.
+Once you're done, click the <kbd>q</kbd> key to return to the command line.
 
 Let's try two more commands for viewing the contents of a file:
 
@@ -583,13 +583,13 @@ What do command line flags allow you to do?
 
 When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes `tab` completion, stage right!
 
-When you need to type out a file or folder name—for example, the name of that csv file we've been working with: nypl_items.csv—in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the `tab` key. And voilà! Clicking that `tab` key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory.
+When you need to type out a file or folder name—for example, the name of that csv file we've been working with: nypl_items.csv—in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the <kbd>tab</kbd> key. And voilà! Clicking that <kbd>tab</kbd> key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory.
 
-In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and `tab` complete the rest!
+In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and <kbd>tab</kbd> complete the rest!
 
 ## Clearing Text
 
-If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the `command` and `k` keys to clear the scrollback. Pressing the `command` and `l` keys in MacOs, or `CTRL` and `l` in Windows will clear the output from your most recent command.
+If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>CTRL</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
 
 # Searching text data
 
