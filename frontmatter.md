@@ -62,9 +62,11 @@ If commands are the ways in which a user communicates with machines, the command
 
 ## Acknowledgements
 
-- Current Author: Stefano Morello
-- Contributing Author: Kelsey Chatlosh
-- Contributing Author: Patrick Smyth
-- Contributing Author: Mary Catherine McKinniburgh
-- Contributing Author: Jojo Karlin
-- Reviewer: Di Yoong
+- Current Author: [Stefano Morello](https://github.com/smorello87)
+- Contributing Author: [Kelsey Chatlosh](https://github.com/kchatlosh)
+- Contributing Author: [Patrick Smyth](https://github.com/smythp)
+- Contributing Author: [Mary Catherine McKinniburgh](https://github.com/mckinniburgh)
+- Contributing Author: [Jojo Karlin](https://github.com/jojokarlin/)
+- Reviewer: [Di Yoong](https://github.com/dyoong)
+- Editor: [Lisa Rhody](https://github.com/lmrhody)
+- Editor: [Kalle Westerling](https://github.com/kallewesterling)
