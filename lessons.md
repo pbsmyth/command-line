@@ -17,12 +17,14 @@ Let's take a quick moment to discuss text and text editors.
 Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in *Textual Scholarship*, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
 ![Word Doc](sections/images/worddoc.png)
-Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/WordProcessorExample.docx?raw=true) to download the Word file.<br>
+
+Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/WordProcessorExample.docx?raw=true) to download the Word file.
 
 If you ask the command line to read that file, this Word .docx file will look something like this
 
-![Word Doc as visualized by Command Line](sections/images/CatWordDoc.png)<br>
-Users with visual disabilities, [click here](PK.md) to download the text file.<br>
+![Word Doc as visualized by Command Line](sections/images/CatWordDoc.png)
+
+Users with visual disabilities, [click here](PK.md) to download the text file.
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
@@ -44,7 +46,7 @@ Plain text has two main properties in regard to rich text:
 
 ## Choosing a text editor
 
-An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. Text editors are not used to edit rich text documents, such as .docx or .rtf, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly.
+An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as `.txt`, `.csv`, or `.md`. Text editors are not used to edit rich text documents, such as .docx or .rtf, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly.
 
 While it doesn't really matter which text editor you choose, you should try to become comfortable with at least one text editor.
 
@@ -374,7 +376,7 @@ If you want to add text to a file but _not_ overwrite it, you can use the `>>` c
 
 ## `Cat`
 
-Let's check if there's any text in cheat-sheet.txt.
+Let's check if there's any text in `cheat-sheet.txt`.
 
 ```console
 $ cat cheat-sheet.txt
@@ -395,13 +397,13 @@ For your digital best practices, we recommend making sure that file names contai
 
 ## Using a text editor
 
-The challenge for this section will be using a text editor, specifically Visual Studio Code ([install guide here](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md)), to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as .txt, .py (Python scripts), and .csv (comma-separated values, also known as spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems.
+The challenge for this section will be using a text editor, specifically Visual Studio Code ([install guide here](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md)), to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as `.txt`, `.py` (Python scripts), and `.csv` (comma-separated values, also known as spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems.
 
 ## Challenge
 
-You _could_ use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in Mac OSX, or via the Windows button in Windows—and then click `File` and then `Open` from the drop-down menu and navigate to your Desktop folder and click to open the cheat-sheet.txt file.
+You _could_ use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in macOS, or via the Windows button in Windows—and then click `File` and then `Open` from the drop-down menu and navigate to your Desktop folder and click to open the `cheat-sheet.txt` file.
 
-_Or_, you can open that specific cheat-sheet.txt file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Remember, the command `code` prompts your computer to open Visual Code.)
+_Or_, you can open that specific `cheat-sheet.txt` file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Remember, the command `code` prompts your computer to open Visual Code.)
 
 Once you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
@@ -412,23 +414,23 @@ Once you're done, check the contents of the file on the command line with the `c
 ## Solution
 
 - Step 1 
-```console
-$ code cheat-sheet.txt
-```
+    ```console
+    $ code cheat-sheet.txt
+    ```
 
 - Step 2 
- ```console
-$ cat cheat-sheet.txt
-My Institute Cheat Sheet
+    ```console
+    $ cat cheat-sheet.txt
+    My Institute Cheat Sheet
 
-ls
-lists files and folders in a directory
+    ls
+    lists files and folders in a directory
 
-cd ~
-change directory to home folder
+    cd ~
+    change directory to home folder
 
-...
-```
+    ...
+    ```
 
 ## Evaluation
 
@@ -436,7 +438,6 @@ What does effect does the following command produce?
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
 ```
-
 - It adds the line "Hello! My Name is Mark!" to the existing content of the `introduction.txt` file.
 - It checks whether the content of the `introduction.txt` file contains the line "Hello! My Name is Mark!"
 - It replaces the content of the `introduction.txt` file with the line "Hello! My Name is Mark!"*
@@ -485,9 +486,9 @@ So far the only text file we've been working with is our cheat sheet. Now, this 
 
 Let's download the data we're going to work with:
 
-[Download nypl_items.csv](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/nypl_items.csv?raw=true)
+[Download `nypl_items.csv`](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/nypl_items.csv?raw=true)
 
-Our data set is a list of public domain items from the New York Public Library. It's in .csv format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
+Our data set is a list of public domain items from the New York Public Library. It's in `.csv` format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
 ## Move command
 
@@ -534,7 +535,7 @@ These commands print out the very first (the "head") and very last (the "tail") 
 
 ## Cleaning the data
 
-We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our .csv file:
+We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our `.csv` file:
 
 ```console
 $ cat nypl_items.csv | wc -l
@@ -581,9 +582,9 @@ What do command line flags allow you to do?
 
 ## A Favorite Command Line Feature: Tab Completion
 
-When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes `tab` completion, stage right!
+When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes _tab completion_, stage right!
 
-When you need to type out a file or folder name—for example, the name of that csv file we've been working with: nypl_items.csv—in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the <kbd>tab</kbd> key. And voilà! Clicking that <kbd>tab</kbd> key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory.
+When you need to type out a file or folder name—for example, the name of that csv file we've been working with: `nypl_items.csv`—in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the <kbd>tab</kbd> key. And voilà! Clicking that <kbd>tab</kbd> key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory.
 
 In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and <kbd>tab</kbd> complete the rest!
 
@@ -611,11 +612,11 @@ $ cat nypl_items.csv | grep -i "paris" | wc -l
 191
 ```
 
-Here we have asked `cat` to read nypl_items.csv, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word `paris`. We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
+Here we have asked `cat` to read `nypl_items.csv`, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word `paris`. We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
 
 ## Challenge
 
-Use the `grep` command to explore our .csv file a bit. What areas are best covered by the data set?
+Use the `grep` command to explore our `.csv` file a bit. What areas are best covered by the data set?
 
 ## Solution
 If you want to get a little more milage out of the grep command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
@@ -639,7 +640,7 @@ In this session, we learned:
 - how to use `mkdir` to create folders
 - how to navigate our file structure by `cd`(change directory), `pwd` (print working directory), and `ls` (list)
 - how to use redirects (`>`) and pipes (`|`) to create a pipeline
-- how to explore a comma separated values (.csv) dataset using word and line counts, `head` and `tail`, and the concatenate command `cat`
+- how to explore a comma separated values (`.csv`) dataset using word and line counts, `head` and `tail`, and the concatenate command `cat`
 - how to search text files using the `grep` command
 
 And we made a [cheat sheet](12-commands.md) for reference!
