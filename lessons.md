@@ -599,7 +599,7 @@ If all the text remaining in your terminal window is starting to overwhelm you, 
 
 So we've cleaned our data set, but how do we find entries that use a particular term?
 
-Let's say I want to find all the entries in our data set that use the term `Paris`.
+Let's say I want to find all the entries in our data set that use the term "Paris."
 
 Here we can use the `grep` command. `grep` stands for "global regular expression print." The `grep` command processes text line by line and prints any lines which match a specified pattern. Regular expressions are special strings representing a pattern to be matched in a search operation. `grep` gives us access to the power of regular expressions as we search for text.
 
@@ -608,14 +608,14 @@ $ cat nypl_items.csv | grep -i "paris"
 ...
 ```
 
-This will print out all the lines that contain the word `Paris`. (The `-i` flag makes the command ignore capitalization.) Let's use our `wc -l` command to see how many lines that is:
+This will print out all the lines that contain the word "Paris." (The `-i` flag makes the command ignore capitalization.) Let's use our `wc -l` command to see how many lines that is:
 
 ```console
 $ cat nypl_items.csv | grep -i "paris" | wc -l
 191
 ```
 
-Here we have asked `cat` to read `nypl_items.csv`, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word `paris`. We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that Paris (or paris) occurs on 191 lines of our data set.
+Here we have asked `cat` to read `nypl_items.csv`, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word `paris`. We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that "Paris" (or "paris") occurs on 191 lines of our data set.
 
 ## Challenge
 
