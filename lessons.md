@@ -14,7 +14,7 @@ Let's take a quick moment to discuss text and text editors.
 
 ## What is text?
 
-Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in *Textual Scholarship*, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
+Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in _Textual Scholarship_, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
 ![Word Doc](sections/images/worddoc.png)
 
@@ -109,7 +109,7 @@ Bonus points: if you really want to get the groove of just typing instead of poi
 
 ## Windows
 
-We won't be using Windows's own non-UNIX version of the command line. We installed Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session. Git Bash includes core utilities available on Linux that are not available on Windows. 
+We won't be using Windows's own non-UNIX version of the command line. Instead, we will use Git Bash. If you haven't installed it yet, you can follow [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md). The reason we use Git Bash as the command line on Windows is that it makes you able to run the same commands as you would on a computer running macOS or Linux. Git Bash includes core utilities available on Linux that are not available on Windows.
 
 1. Look for Git Bash in your programs menu and open.
 
@@ -131,19 +131,21 @@ In the next section, we'll learn how to navigate the filesystem in the command l
 
 # Prefatory Pro Tips
 
-- Go slow at first and check your spelling!
+Before we get started, I wanted to give you a couple of tips of things to keep in mind.
 
-- One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! _Keep this in mind!_ If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
+First, go slow at first and check your spelling! One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! _Keep this in mind!_ If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
 
-- Keep in mind that the command line and file systems on macOS and Unix are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
+Second, keep in mind that the command line and file systems on macOS and Unix are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
 
-- Also, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
+Third, while copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
+
+Now, we are ready to get started.
 
 # Navigation
 
 ## Getting started: know thyself
 
-You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press the <kbd>enter</kbd> key:
+You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press <kbd>enter</kbd> on your keyboard:
 
 ```console
 $ whoami
@@ -159,15 +161,18 @@ Your computer's files are organized in what's known as a hierarchical filesystem
 
 ```
 Users
-|
- —— your-username
-   |
-    —— Applications
-    —— Desktop
-    —— Documents
+│
+└───your-username
+│   │
+│   └───Applications
+│   │
+│   └───Desktop
+│   │
+│   └───Documents
+│   │
 ```
 
-The root or highest-level folder on macOS is just called `/`. We won't need to go in there, though, since that's mostly just files for the operating system. On Windows, the root directory is usually called `C:` ([More on why C is default on Windows](http://www.todayifoundout.com/index.php/2015/04/c-drive-default-windows-based-computers-2/)).
+The root or highest-level folder on macOS is just called `/`. We won't need to go in there, though, since that's mostly just files for the operating system. On Windows, the root directory is usually called `C:`. (If you are curious why `C:` is the default name on Windows, you can read about it [here](http://www.todayifoundout.com/index.php/2015/04/c-drive-default-windows-based-computers-2).)
 
 Note that we are using the word "directory" interchangeably with "folder"—they both refer to the same thing.
 
@@ -177,13 +182,11 @@ OK, let's try a command that tells us where we are in the filesystem:
 $ pwd
 ```
 
-You should get output like `/Users/your-username`. That means you're in the `your-username` directory in the `Users` folder inside the `/` or root directory. On Windows, your output would instead be `C:/Users/your-username`. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
+You should get output like `/Users/your-username`. That means you're in the `your-username` directory in the `Users` folder inside the `/` or root directory. This directory is often called the "home" directory.
 
-The command `pwd` won't actually print anything except on your screen. This command is easier to grasp when we interpret "print" as "display."
+On Windows, your output would instead be `C:/Users/your-username`. The folder you're in is called the working directory, and `pwd` stands for "print working directory." "Print" as a word can be somewhat misleading. The command `pwd` won't actually print anything except on your screen. This command is easier to grasp when we interpret "print" as "display."
 
-OK, we know where we are. But what if we want to know what files and folders are in the `your-username` directory, a.k.a. the working directory?
-
-Try entering:
+Now we know "where" we are. But what if we want to know what files and folders are in the `your-username` directory, a.k.a. the working directory? Try entering:
 
 ```console
 $ ls
@@ -191,7 +194,7 @@ $ ls
 
 You should see a number of folders, probably including `Documents`, `Desktop`, and so on. You may also see some files. These are the contents of the current working directory. `ls` will "list" the contents of the directory you are in.
 
-Wonder what's in the Desktop folder? Let's try navigating to it with the following command:
+Wonder what's in the `Desktop` folder? Let's try navigating to it with the following command:
 
 ```console
 $ cd Desktop
@@ -208,23 +211,19 @@ $ pwd
 
 Now try `ls` again to see what's on your desktop. These three commands—`pwd`, `ls`, and `cd`—are the most commonly used in the terminal. Between them, you can orient yourself and move around.
 
-Before we move on, let's take a minute to navigate through our computer's file system using the command line.
-
 ## Challenge
 
-Use the three commands you've just learned—`pwd`, `ls` and `cd`—eight (8) times each. Go poking around your Photos folder, or see what's so special about that root `/` directory. When you're done, come back to the home folder with
+Before moving on, take a minute to navigate through our computer's file system using the command line. Use the three commands you've just learned—`pwd`, `ls` and `cd`—eight (8) times each. Go poking around your `Photos` folder, or see what's so special about that root `/` directory. When you're done, come back to your "home" folder with
 
 ```console
 $ cd ~
 ```
 
-(That's a tilde <kbd>~</kbd>, on the top left of your keyboard.) One more command you might find useful is
+(That's a tilde <kbd>~</kbd>, on the top left of your keyboard.) One more command you might find useful is `cd ..` which will move you one directory up in the filesystem. That's a `cd` with two periods after it:
 
 ```console
 $ cd ..
 ```
-
-which will move you one directory up in the filesystem. That's a `cd` with two periods after it.
 
 ### Compare with the GUI
 
@@ -234,26 +233,25 @@ Go ahead and use pointing and clicking to navigate to your working directory—y
 
 ## Solution
 
-Type `pwd` to see where on your computer you are located <br>
-Type `cd name-of-your-folder` to enter a subfolder <br>
-Type `ls` to see the content of that folder <br>
-Type `cd ..` to leave that folder <br>
-Type `pwd` to make sure you are back to the folder where you wish to be <br>
-Type `cd ~` to go back to your home folder <br>
-Type `pwd` to make sure you are in the folder where you wish to be <br>
-Type `cd /` to go back to your root folder <br>
-Type `ls` to see the content of folder you are currently in <br>
-Type `pwd` to make sure you are in the folder where you wish to be <br>
-Type `cd name-of-your-folder` to enter a subfolder <br>
+1. Type `pwd` to see where on your computer you are located.
+2. Type `cd name-of-your-folder` to enter a subfolder.
+3. Type `ls` to see the content of that folder.
+4. Type `cd ..` to leave that folder.
+5. Type `pwd` to make sure you are back to the folder where you wish to be.
+6. Type `cd ~` to go back to your home folder.
+7. Type `pwd` to make sure you are in the folder where you wish to be.
+8. Type `cd /` to go back to your root folder.
+9. Type `ls` to see the content of folder you are currently in.
+10. Type `pwd` to make sure you are in the folder where you wish to be.
+11. Type `cd name-of-your-folder` to enter a subfolder.
 
 ## Evaluation
 
 What command do you run if you are trying to identify where in the filesystem you are currently located/working?
-
-- $ `ls` 
+- $ `ls`
 - $ `pwd`*
 - $ `cd`
-- $ `whoami` 
+- $ `whoami`
 
 When and why would you want to use the command line as opposed to your operating system's GUI?
 
@@ -263,20 +261,20 @@ When and why would you want to use the command line as opposed to your operating
 
 So far, we've only performed commands that give us information. Let's use a command that creates something on the computer.
 
-First, make sure you're in the home directory:
+First, make sure you're in your home directory:
 
 ```console
 $ pwd
 /Users/your-username
 ```
 
-Let's move to the Desktop folder, or "change directory" with `cd`:
+Let's move to the `Desktop` folder, or "change directory" with `cd`:
 
 ```console
 $ cd Desktop
 ```
 
-Once you've made sure you're in the Desktop folder with `pwd`, let's try a new command:
+Once you've made sure you're in the `Desktop` folder with `pwd`, let's try a new command:
 
 ```console
 $ touch foo.txt
@@ -288,22 +286,22 @@ If the command succeeds, you won't see any output. Now move the terminal window 
 
 ## Handy tip: up arrow
 
-Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit <kbd>Enter</kbd> to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to change the file name to `foot.txt` to create something different.
+Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit <kbd>Enter</kbd> to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to `foot.txt` to create a different file.
 
 As we start to write more complicated and longer commands in our terminal, the <kbd>up arrow</kbd> is a great shortcut so you don't have to spend lots of time typing.
 
 ## Creating folders
 
-OK, so we're going to be doing a lot of work during the Digital Humanities Research Institute. Let's create a project folder in our Desktop so that we can keep all our work in one place.
+OK, so we're going to be doing a lot of work during the Digital Humanities Research Institute. Let's create a `projects` folder on our desktop, where we can keep all our work in one place.
 
-First, let's check to make sure we're still in the Desktop folder with `pwd`:
+First, let's check to make sure we're still in the `Desktop` folder with `pwd`:
 
 ```console
 $ pwd
 /Users/your-username/Desktop
 ```
 
-Once you've double-checked you're in Desktop, we'll use the `mkdir` or "make directory" command to make a folder called `projects`:
+Once you've double-checked you're in `Desktop`, we'll use the `mkdir` or "make directory" command to make a folder called `projects`:
 
 ```console
 $ mkdir projects
@@ -321,23 +319,22 @@ OK, now you've got a projects folder that you can use throughout the Institute. 
 
 ## Challenge
 
-Try and create a sub-folder and file on your own! 
+Try and create a sub-folder and file on your own!
 
 ## Solution
 
-Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
-Type `mkdir name-of-your-subfolder` to create a subfolder <br>
-Type `cd name-of-your-folder` to navigate to that folder <br>
-Type `challenge.txt` to create a new text file <br>
-Type `ls` to check whether you created the file correctly<br>
+1. Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation).
+2. Type `mkdir name-of-your-subfolder` to create a subfolder.
+3. Type `cd name-of-your-folder` to navigate to that folder.
+4. Type `challenge.txt` to create a new text file.
+5. Type `ls` to check whether you created the file correctly.
 
 ## Evaluation
 
 What does the <kbd>up arrow</kbd> command do?
-
 - It quits the Terminal/GitBash.
 - It undoes my last command.
-- It repeats my last command.*
+- It inserts my last command.*
 - It shows me what folder I am working in.
 
 # Creating a cheat sheet
@@ -393,7 +390,7 @@ Try to make a file titled `cheat sheet.txt` and observe what happens.
 
 Now imagine you're attempting to open a very important data file using the command line that is titled `cheat sheet.txt`
 
-For your digital best practices, we recommend making sure that file names contain no spaces—you can use creative capitalization, dashes, or underscores instead. Just keep in mind that the macOS and Unix file systems are usually pre-configured as cAsE-pReSeRvInG, which means that capitalization matters when you type commands to navigate between or do things to directories and files. You may also want to avoid using periods in your file names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually `file.pdf`). 
+For your digital best practices, we recommend making sure that file names contain no spaces—you can use creative capitalization, dashes, or underscores instead. Just keep in mind that the macOS and Unix file systems are usually pre-configured as cAsE-pReSeRvInG, which means that capitalization matters when you type commands to navigate between or do things to directories and files. You may also want to avoid using periods in your file names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually `file.pdf`).
 
 ## Using a text editor
 
@@ -409,16 +406,16 @@ Once you've got your cheat sheet open in the Visual Studio Code text editor, typ
 
 Save the file.
 
-Once you're done, check the contents of the file on the command line with the `cat` command followed by the name of your file. 
+Once you're done, check the contents of the file on the command line with the `cat` command followed by the name of your file.
 
 ## Solution
 
-- Step 1 
+- Step 1
     ```console
     $ code cheat-sheet.txt
     ```
 
-- Step 2 
+- Step 2
     ```console
     $ cat cheat-sheet.txt
     My Institute Cheat Sheet
@@ -441,7 +438,9 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - It adds the line "Hello! My Name is Mark!" to the existing content of the `introduction.txt` file.
 - It checks whether the content of the `introduction.txt` file contains the line "Hello! My Name is Mark!"
 - It replaces the content of the `introduction.txt` file with the line "Hello! My Name is Mark!"*
-- None of the above. 
+- None of the above.
+
+
 
 # Pipes
 
@@ -479,6 +478,8 @@ What do pipes allow you to do?
 - Pipes let you take the output of one command and use it as the input for another.*
 - Pipes allow you to combine multiple commands in a single line.*
 - Pipes let you work on multiple files at the same time.
+
+
 
 # Exploring text data
 
@@ -542,7 +543,7 @@ $ cat nypl_items.csv | wc -l
 100001
 ```
 
-This tells us there are 100,001 lines in our file. The `wc` tool stands for "word count," but it can also count characters and lines in a file. We tell `wc` to count lines by using the `-l` flag. If we wanted to count characters, we could use `wc -m`. 
+This tells us there are 100,001 lines in our file. The `wc` tool stands for "word count," but it can also count characters and lines in a file. We tell `wc` to count lines by using the `-l` flag. If we wanted to count characters, we could use `wc -m`.
 
 To find and remove duplicate lines, we can use the `uniq` command. Let's try it out:
 
@@ -572,13 +573,15 @@ Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new ve
 
 ## Evaluation
 
-What do command line flags allow you to do? 
+What do command line flags allow you to do?
 
 - Flags allow you to earmark the file you are working on.
 - Flags are useful to create a new version of the file you are working on, while preserving the old version for future access.
 - Flags are a common way to specify options for command line programs.*
 
-# Interlude 
+
+
+# Interlude
 
 ## A Favorite Command Line Feature: Tab Completion
 
@@ -623,12 +626,14 @@ If you want to get a little more milage out of the grep command, refer to [this 
 
 ## Evaluation
 
-Let's think about the `grep` command. 
+Let's think about the `grep` command.
 
-- It searches the given file for lines containing a match to the given strings or words.* 
+- It searches the given file for lines containing a match to the given strings or words.*
 - It can be combined with other commands, so as to produce a search that matches their output.*
 - It produces a new file with the lines containing the strings or words you are searching.
-- It delete the strings or words you are searching from a file. 
+- It delete the strings or words you are searching from a file.
+
+
 
 # What we've learned
 
@@ -636,7 +641,7 @@ Now is a good time to do a quick review!
 
 In this session, we learned:
 
-- how to use `touch` and `echo` to create files 
+- how to use `touch` and `echo` to create files
 - how to use `mkdir` to create folders
 - how to navigate our file structure by `cd`(change directory), `pwd` (print working directory), and `ls` (list)
 - how to use redirects (`>`) and pipes (`|`) to create a pipeline
