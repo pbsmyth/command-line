@@ -255,6 +255,14 @@ What command do you run if you are trying to identify where in the filesystem yo
 
 When and why would you want to use the command line as opposed to your operating system's GUI?
 
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Filesystem](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/filesystem.md)
+- [GUI](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/gui.md)
+- [Root](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/root.md)
+
 # Creating files and folders
 
 ## Creating a file
@@ -579,7 +587,11 @@ What do command line flags allow you to do?
 - Flags are useful to create a new version of the file you are working on, while preserving the old version for future access.
 - Flags are a common way to specify options for command line programs.*
 
+## Keywords
 
+Do you remember the glossary terms from this section?
+
+- [Path](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/path.md)
 
 # Interlude
 
