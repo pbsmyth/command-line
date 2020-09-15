@@ -1,6 +1,6 @@
 # What Is the Command Line?
 
-The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them [in the glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md).) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
+The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them [in the glossary](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/command-line.md).) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
 
 The command line (of computers today) receives these commands as text that is typed in.
 
@@ -463,7 +463,7 @@ $ echo "Hello from the command line" | wc -w
 5
 ```
 
-In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands. See the [glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md) for more information about flags and options.
+In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands.
 
 Let's try another. What if we wanted to put the commands in our cheat sheet in alphabetical order?
 
@@ -575,8 +575,10 @@ Use the commands you've learned so far to create a new version of the `nypl_item
 
 ## Solution
 
-Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation) <br>
-Type `ls` to check whether the file `nypl_items.csv` is in your projects folder <br>
+Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation)
+
+Type `ls` to check whether the file `nypl_items.csv` is in your projects folder.
+
 Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new version of the `nypl_items.csv` file with the duplicated lines removed.
 
 ## Evaluation
