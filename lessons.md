@@ -56,7 +56,7 @@ Choosing a text editor has as much to do with personality as it does with functi
 
 For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across macOS, Windows, and Linux systems.
 
-You will have downloaded VS Code according to the [instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) on the installations page. We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. In later workshops we will discuss syntax highlighting and version control, which Visual Studio Code supports. For now we will get back to working in the command line itself.
+You will have downloaded Visual Studio Code according to the [instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) on the installations page. We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. In other workshops we will discuss syntax highlighting and version control, which Visual Studio Code supports. For now we will get back to working in the command line itself.
 
 ## Evaluation
 
