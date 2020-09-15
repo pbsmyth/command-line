@@ -331,7 +331,7 @@ Try and create a sub-folder and file on your own!
 
 ## Solution
 
-1. Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation).
+1. Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the [lesson on navigation](https://curriculum.dhinstitutes.org/workshops/command-line/lessons/?page=6).
 2. Type `mkdir name-of-your-subfolder` to create a subfolder.
 3. Type `cd name-of-your-folder` to navigate to that folder.
 4. Type `challenge.txt` to create a new text file.
@@ -571,11 +571,11 @@ The `uniq` command with the `-d` flag prints out the lines that have duplicates.
 
 ## Challenge
 
-Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: [redirects](07-creating_a_cheat_sheet.md#redirect-) are your friend.)
+Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: _redirects_ from the lesson when we made a [cheat sheet](https://curriculum.dhinstitutes.org/workshops/command-line/lessons/?page=8) are your friend.)
 
 ## Solution
 
-Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the previous [lesson](https://github.com/DHRI-Curriculum/command-line/blob/v2.0-smorello-edits/lessons.md#navigation)
+Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the [lesson on navigation](https://curriculum.dhinstitutes.org/workshops/command-line/lessons/?page=6).
 
 Type `ls` to check whether the file `nypl_items.csv` is in your projects folder.
 
@@ -646,8 +646,6 @@ Let's think about the `grep` command.
 - It can be combined with other commands, so as to produce a search that matches their output.*
 - It produces a new file with the lines containing the strings or words you are searching.
 - It delete the strings or words you are searching from a file.
-
-
 
 # What we've learned
 
