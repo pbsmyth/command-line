@@ -1,8 +1,8 @@
-← [Why is the command line useful?](03-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](05-prefatory-pro-tips.md) →
+← [Why is the Command Line Useful?](03-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](05-prefatory-pro-tips.md) →
 
 ---
 
-# 4. Getting to the command line
+# 4. Getting to the Command Line
 
 ## macOS
 
@@ -20,7 +20,7 @@ If you're using macOS:
 
 Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
 
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can hold the <kbd>Command (⌘)</kbd> key while and press <kbd>space</kbd> to pull up Spotlight search, start typing `Terminal,` and then hit `Enter` to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can hold the <kbd>command (⌘)</kbd> key while and press <kbd>space</kbd> to pull up Spotlight search, start typing `Terminal,` and then hit `Enter` to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
 
 ## Windows
 
@@ -34,9 +34,9 @@ We won't be using Windows's own non-UNIX version of the command line. Instead, w
 
 4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
 
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>Win (⊞)</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>Enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>windows</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
 
-## Command prompt `$`
+## Command Prompt `$`
 
 `$`, which we will refer to as the "command prompt," is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
@@ -46,4 +46,4 @@ In the next section, we'll learn how to navigate the filesystem in the command l
 
 ---
 
-← [Why is the command line useful?](03-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](05-prefatory-pro-tips.md) →
+← [Why is the Command Line Useful?](03-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](05-prefatory-pro-tips.md) →

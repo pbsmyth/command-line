@@ -1,8 +1,8 @@
-← [Creating files and folders](07-creating-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pipes](09-pipes.md) →
+← [Creating Files and Folders](07-creating-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pipes](09-pipes.md) →
 
 ---
 
-# 8. Creating a cheat sheet
+# 8. Creating a Cheat Sheet
 
 In this section, we'll create a text file that we can use as a cheat sheet. You can use it to keep track of all the awesome commands you're learning.
 
@@ -47,7 +47,7 @@ This is my cheat sheet
 
 As you can see, the `cat` command prints the contents of a file to the screen. `cat` stands for "concatenate," because it can link strings of characters or files together from end to end.
 
-## A note on file naming
+## A Note on File Naming
 
 Your cheat sheet is titled `cheat-sheet.txt` instead of `cheat sheet.txt` for a reason. Can you guess why?
 
@@ -57,7 +57,7 @@ Now imagine you're attempting to open a very important data file using the comma
 
 For your digital best practices, we recommend making sure that file names contain no spaces—you can use creative capitalization, dashes, or underscores instead. Just keep in mind that the macOS and Unix file systems are usually pre-configured as cAsE-pReSeRvInG, which means that capitalization matters when you type commands to navigate between or do things to directories and files. You may also want to avoid using periods in your file names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually `file.pdf`).
 
-## Using a text editor
+## Using a Text Editor
 
 The challenge for this section will be using a text editor, specifically Visual Studio Code ([install guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md)), to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as `.txt`, `.py` (Python scripts), and `.csv` (comma-separated values, also known as spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems.
 
@@ -107,4 +107,4 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 
 ---
 
-← [Creating files and folders](07-creating-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pipes](09-pipes.md) →
+← [Creating Files and Folders](07-creating-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pipes](09-pipes.md) →

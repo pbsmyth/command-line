@@ -1,4 +1,4 @@
-← [Prefatory Pro Tips](05-prefatory-pro-tips.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating files and folders](07-creating-files-and-folders.md) →
+← [Prefatory Pro Tips](05-prefatory-pro-tips.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating Files and Folders](07-creating-files-and-folders.md) →
 
 ---
 
@@ -14,7 +14,7 @@ $ whoami
 
 The `whoami` command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press <kbd>enter</kbd> on your keyboard, and receive output.
 
-## Orienting yourself in the command line: folders
+## Orienting Yourself in the Command Line: Folders
 
 OK, we're going to try another command. But first, let's make sure we understand some things about how your computer's filesystem works.
 
@@ -115,4 +115,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [Prefatory Pro Tips](05-prefatory-pro-tips.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating files and folders](07-creating-files-and-folders.md) →
+← [Prefatory Pro Tips](05-prefatory-pro-tips.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating Files and Folders](07-creating-files-and-folders.md) →

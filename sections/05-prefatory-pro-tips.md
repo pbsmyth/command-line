@@ -1,4 +1,4 @@
-← [Getting to the command line](04-getting-to-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Navigation](06-navigation.md) →
+← [Getting to the Command Line](04-getting-to-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Navigation](06-navigation.md) →
 
 ---
 
@@ -16,4 +16,4 @@ Now, we are ready to get started.
 
 ---
 
-← [Getting to the command line](04-getting-to-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Navigation](06-navigation.md) →
+← [Getting to the Command Line](04-getting-to-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Navigation](06-navigation.md) →

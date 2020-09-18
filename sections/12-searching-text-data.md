@@ -1,8 +1,8 @@
-← [Interlude](11-interlude.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[What we've learned](13-what-weve-learned.md) →
+← [Interlude](11-interlude.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[What We Have Learned](13-what-we-have-learned.md) →
 
 ---
 
-# 12. Searching text data
+# 12. Searching Text Data
 
 So we've cleaned our data set, but how do we find entries that use a particular term?
 
@@ -42,4 +42,4 @@ Let's think about the `grep` command.
 
 ---
 
-← [Interlude](11-interlude.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[What we've learned](13-what-weve-learned.md) →
+← [Interlude](11-interlude.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[What We Have Learned](13-what-we-have-learned.md) →

@@ -1,10 +1,10 @@
-← [Navigation](06-navigation.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating a cheat sheet](08-creating-a-cheat-sheet.md) →
+← [Navigation](06-navigation.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating a Cheat Sheet](08-creating-a-cheat-sheet.md) →
 
 ---
 
-# 7. Creating files and folders
+# 7. Creating Files and Folders
 
-## Creating a file
+## Creating a File
 
 So far, we've only performed commands that give us information. Let's use a command that creates something on the computer.
 
@@ -31,13 +31,13 @@ The `touch` command is used to create a file without any content. This command c
 
 If the command succeeds, you won't see any output. Now move the terminal window and look at your "real" desktop, the graphical one. See any differences? If the command was successful and you were in the right place, you should see an empty text file called `foo.txt` on the desktop. Pretty cool, right?
 
-## Handy tip: up arrow
+## Handy Tip: Up Arrow
 
-Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit <kbd>Enter</kbd> to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to `foot.txt` to create a different file.
+Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit <kbd>enter</kbd> to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to `foot.txt` to create a different file.
 
 As we start to write more complicated and longer commands in our terminal, the <kbd>up arrow</kbd> is a great shortcut so you don't have to spend lots of time typing.
 
-## Creating folders
+## Creating Folders
 
 OK, so we're going to be doing a lot of work during the Digital Humanities Research Institute. Let's create a `projects` folder on our desktop, where we can keep all our work in one place.
 
@@ -86,4 +86,4 @@ What does the <kbd>up arrow</kbd> command do?
 
 ---
 
-← [Navigation](06-navigation.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating a cheat sheet](08-creating-a-cheat-sheet.md) →
+← [Navigation](06-navigation.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating a Cheat Sheet](08-creating-a-cheat-sheet.md) →

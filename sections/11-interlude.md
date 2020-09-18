@@ -1,4 +1,4 @@
-← [Exploring text data](10-exploring-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Searching text data](12-searching-text-data.md) →
+← [Exploring Text Data](10-exploring-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Searching Text Data](12-searching-text-data.md) →
 
 ---
 
@@ -14,8 +14,8 @@ In other words, anytime in the command line you can type as much of the file or 
 
 ## Clearing Text
 
-If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>CTRL</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
+If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>control</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
 
 ---
 
-← [Exploring text data](10-exploring-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Searching text data](12-searching-text-data.md) →
+← [Exploring Text Data](10-exploring-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Searching Text Data](12-searching-text-data.md) →

@@ -1,8 +1,8 @@
-← [Searching text data](12-searching-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
+← [Searching Text Data](12-searching-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
 
 ---
 
-# 13. What we've learned
+# 13. What We Have Learned
 
 Now is a good time to do a quick review!
 
@@ -21,4 +21,4 @@ When we started, we reviewed what text is—whether plain or enriched. We learne
 
 ---
 
-← [Searching text data](12-searching-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
+← [Searching Text Data](12-searching-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺

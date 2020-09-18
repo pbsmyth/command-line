@@ -22,18 +22,18 @@ In this workshop, you will:
 ## Lessons
 
 1. [What Is the Command Line?](sections/01-what-is-the-command-line.md)
-2. [Text editors](sections/02-text-editors.md)
-3. [Why is the command line useful?](sections/03-why-is-the-command-line-useful.md)
-4. [Getting to the command line](sections/04-getting-to-the-command-line.md)
+2. [Text Editors](sections/02-text-editors.md)
+3. [Why is the Command Line Useful?](sections/03-why-is-the-command-line-useful.md)
+4. [Getting to the Command Line](sections/04-getting-to-the-command-line.md)
 5. [Prefatory Pro Tips](sections/05-prefatory-pro-tips.md)
 6. [Navigation](sections/06-navigation.md)
-7. [Creating files and folders](sections/07-creating-files-and-folders.md)
-8. [Creating a cheat sheet](sections/08-creating-a-cheat-sheet.md)
+7. [Creating Files and Folders](sections/07-creating-files-and-folders.md)
+8. [Creating a Cheat Sheet](sections/08-creating-a-cheat-sheet.md)
 9. [Pipes](sections/09-pipes.md)
-10. [Exploring text data](sections/10-exploring-text-data.md)
+10. [Exploring Text Data](sections/10-exploring-text-data.md)
 11. [Interlude](sections/11-interlude.md)
-12. [Searching text data](sections/12-searching-text-data.md)
-13. [What we've learned](sections/13-what-weve-learned.md)
+12. [Searching Text Data](sections/12-searching-text-data.md)
+13. [What We Have Learned](sections/13-what-we-have-learned.md)
 
 ---
 

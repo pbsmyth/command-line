@@ -1,4 +1,4 @@
-↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Text editors](02-text-editors.md) →
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Text Editors](02-text-editors.md) →
 
 ---
 
@@ -8,7 +8,7 @@ The command line is a text-based way of interacting with your computer. You may 
 
 The command line (of computers today) receives these commands as text that is typed in.
 
-## What does "text-based" mean?
+## What Does "Text-based" Mean?
 
 For those of us comfortable reading and writing, the idea of "text-based" in the context of computers can seem a bit strange. As we start to get comfortable typing commands to the computer, it's important to distinguish "text" from word processed, desktop publishing. In the latter case, we use software (think Microsoft Word or Google Docs) that displays what we want to produce without showing us the code the computer is reading to render the formatting. On the other hand, while less pretty to look at, plain text has the advantage of being manipulable in different contexts.
 
@@ -16,4 +16,4 @@ Let's take a quick moment to discuss text and text editors.
 
 ---
 
-↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Text editors](02-text-editors.md) →
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Text Editors](02-text-editors.md) →

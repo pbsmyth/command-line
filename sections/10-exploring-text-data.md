@@ -2,7 +2,7 @@
 
 ---
 
-# 10. Exploring text data
+# 10. Exploring Text Data
 
 So far the only text file we've been working with is our cheat sheet. Now, this is where the command line can be a very powerful tool: let's try working with a large text file, one that would be too large to work with by hand.
 
@@ -12,7 +12,7 @@ Let's download the data we're going to work with:
 
 Our data set is a list of public domain items from the New York Public Library. It's in `.csv` format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
-## Move command
+## Move Command
 
 Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop—either through the command line, or drag and drop in the GUI. Since this is indeed a command line workshop, you should try the former!
 
@@ -24,9 +24,9 @@ $ mv nypl_items.csv ~/Desktop/projects/
 
 You can then navigate to that `projects` folder and use the `ls` command to check that the file is now there.
 
-## Viewing data in the command line
+## Viewing Data in the Command Line
 
-Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click <kbd>Control</kbd> + <kbd>C</kbd> on your keyboard to cancel the output if it's taking too long.)
+Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click <kbd>control</kbd> + <kbd>c</kbd> on your keyboard to cancel the output if it's taking too long.)
 
 Instead, let's use another tool, the `less` command, to get the data one page at a time:
 
@@ -55,7 +55,7 @@ $ tail nypl_items.csv
 
 These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
 
-## Cleaning the data
+## Cleaning the Data
 
 We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our `.csv` file:
 

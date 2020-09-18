@@ -1,10 +1,10 @@
-← [What Is the Command Line?](01-what-is-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why is the command line useful?](03-why-is-the-command-line-useful.md) →
+← [What Is the Command Line?](01-what-is-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why is the Command Line Useful?](03-why-is-the-command-line-useful.md) →
 
 ---
 
-# 2. Text editors
+# 2. Text Editors
 
-## What is text?
+## What is Text?
 
 Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in _Textual Scholarship_, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
@@ -20,7 +20,7 @@ Users with visual disabilities, [click here](https://raw.githubusercontent.com/D
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
-## Plain text
+## Plain Text
 
 For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
 
@@ -36,7 +36,7 @@ Plain text has two main properties in regard to rich text:
 
 > plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable.
 
-## Choosing a text editor
+## Choosing a Text Editor
 
 An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as `.txt`, `.csv`, or `.md`. Text editors are not used to edit rich text documents, such as `.docx` or `.rtf`, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly.
 
@@ -44,7 +44,7 @@ While it doesn't really matter which text editor you choose, you should try to b
 
 Choosing a text editor has as much to do with personality as it does with functionality. Graphical user interfaces (GUIs), user options, and "hackability" vary from program to program.
 
-## Default recommendation
+## Default Recommendation
 
 For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across macOS, Windows, and Linux systems.
 
@@ -63,4 +63,4 @@ What is the Command Line? How is it different from your text editor?
 
 ---
 
-← [What Is the Command Line?](01-what-is-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why is the command line useful?](03-why-is-the-command-line-useful.md) →
+← [What Is the Command Line?](01-what-is-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why is the Command Line Useful?](03-why-is-the-command-line-useful.md) →
