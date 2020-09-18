@@ -448,8 +448,6 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - It replaces the content of the `introduction.txt` file with the line "Hello! My Name is Mark!"*
 - None of the above.
 
-
-
 # Pipes
 
 So far, you've learned a number of commands and one special symbol, the `>` or redirect. Now we're going to learn another, the `|` or "pipe."
@@ -486,8 +484,6 @@ What do pipes allow you to do?
 - Pipes let you take the output of one command and use it as the input for another.*
 - Pipes allow you to combine multiple commands in a single line.*
 - Pipes let you work on multiple files at the same time.
-
-
 
 # Exploring text data
 
@@ -579,7 +575,7 @@ Type `pwd` to see where on your computer you are located. If you are not in the 
 
 Type `ls` to check whether the file `nypl_items.csv` is in your projects folder.
 
-Type `cat nypl_items.csv | uniq -d > new_nypl_items.csv` <br> to create a new version of the `nypl_items.csv` file with the duplicated lines removed.
+Type `cat nypl_items.csv | uniq > new_nypl_items.csv` to create a new version of the `nypl_items.csv` file with the duplicated lines removed.
 
 ## Evaluation
 
