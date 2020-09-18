@@ -16,13 +16,13 @@ Let's take a quick moment to discuss text and text editors.
 
 Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in _Textual Scholarship_, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
-![Word Doc](sections/images/worddoc.png)
+![Word Doc](images/worddoc.png)
 
 Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/raw/v2.0/files/WordProcessorExample.docx) to download the Word file.
 
 If you ask the command line to read that file, this Word `.docx` file will look something like this
 
-![Word Doc as visualized by Command Line](sections/images/CatWordDoc.png)
+![Word Doc as visualized by Command Line](images/CatWordDoc.png)
 
 Users with visual disabilities, [click here](https://raw.githubusercontent.com/DHRI-Curriculum/command-line/v2.0/files/PK.md) to download the text file.
 
@@ -101,7 +101,7 @@ If you're using macOS:
 
 4. When the Terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.
 
-    ![Terminal in macOS](sections/images/osx_term.png)
+    ![Terminal in macOS](images/osx_term.png)
 
 Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
 
