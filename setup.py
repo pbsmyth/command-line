@@ -11,7 +11,7 @@ if __name__ == "__main__":
     check_sections_directory()
 
     frontmatter_sections = split_frontmatter('frontmatter.md')
-    contexts = split_into_sections(frontmatter_sections.get("Contexts"))
+    contexts = split_into_sections(frontmatter_sections.get("Contexts"), clear_empty_lines=False)
 
     # split-up + write lesson files
     all_content = split_lessons('lessons.md')
