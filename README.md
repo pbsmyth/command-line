@@ -41,7 +41,7 @@ In this workshop, you will learn the following skills:
 
 ## Before you get started
 
-If you do not have experience or basic knowledge of the following workshops, you may want to look into those before you start with Python:
+If you do not have experience or basic knowledge of the following workshops, you may want to look into those before you start with Introduction to the Command Line:
 
 To complete the workshop, you will need:
 
@@ -50,7 +50,7 @@ To complete the workshop, you will need:
 
 ### Ethical Considerations
 
-Before you start the Python workshop, we want to remind you of some ethical considerations to take into account when you read through the lessons of this workshop:
+Before you start the Introduction to the Command Line workshop, we want to remind you of some ethical considerations to take into account when you read through the lessons of this workshop:
 
 "The command line" is also laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in ["On Software, or the Persistence of Visual Knowledge" (2004)](https://doi.org/10.1162/1526381043320741), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts——predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argues
 > computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.
@@ -58,7 +58,7 @@ If commands are the ways in which a user communicates with machines, the command
 
 ### Pre-reading suggestions
 
-Before you start the Python workshop, you may want to read a couple of our pre-reading suggestions:
+Before you start the Introduction to the Command Line workshop, you may want to read a couple of our pre-reading suggestions:
 
 - [Neal Stephenson's "In the Beginning... Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
 - [Douglas Rushkoff's *Program or Be Programmed*](https://rushkoff.com/books/program-or-be-programmed/) offers some reflections on how using the command line allows one to communicate in a less mediated way with their machines and the importance of doing so in the current technoscape.

@@ -5,7 +5,7 @@ from localdjango.setup import read, check_sections_directory, split_into_section
 
 if __name__ == "__main__":
 
-    workshop_title = 'Python'
+    workshop_title = 'Introduction to the Command Line'
 
     # setup 'sections' directory
     check_sections_directory()
