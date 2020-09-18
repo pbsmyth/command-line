@@ -1,6 +1,8 @@
-[<<< Previous](03-why-is-the-command-line-useful.md) | [Next >>>](05-navigation.md)
+← [Why is the command line useful?](3-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](5-prefatory-pro-tips.md) →
 
-# Getting to the command line
+---
+
+# 4. Getting to the command line
 
 ## macOS
 
@@ -8,36 +10,40 @@ If you're using macOS:
 
 1. Click the Spotlight Search button (the magnifying glass) in the top right of your desktop.
 
-2. Type "terminal" into the bar that appears.
+2. Type `terminal` into the bar that appears.
 
 3. Select the first item that appears in the list.
 
-4. The terminal will look like this:
+4. When the Terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.
 
-    ![Terminal in Mac OS](images/osx_term.png)
+    ![Terminal in macOS](../images/osx_term.png)
 
-When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command.
+Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
 
-*You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.*
-
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press "Command (⌘)" and the space bar at the same time to pull up Spotlight search, start typing "Terminal," and then hit "Enter" to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can hold the <kbd>Command (⌘)</kbd> key while and press <kbd>space</kbd> to pull up Spotlight search, start typing `Terminal,` and then hit `Enter` to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
 
 ## Windows
 
-We won't be using Windows's own non-UNIX version of the command line. We installed Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session.
+We won't be using Windows's own non-UNIX version of the command line. Instead, we will use Git Bash. If you haven't installed it yet, you can follow [these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md). The reason we use Git Bash as the command line on Windows is that it makes you able to run the same commands as you would on a computer running macOS or Linux. Git Bash includes core utilities available on Linux that are not available on Windows.
 
 1. Look for Git Bash in your programs menu and open.
 
-2. If you can't find the git folder, just type "git bash" in the search box and select "git bash" when it appears.
+2. If you can't find the git folder, just type `git bash` in the search box and select `git bash` when it appears.
 
 3. Open the program.
 
-4. You know you're in the right place when you see the `$`.
+4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
+
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>Win (⊞)</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>Enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
 
 ## Command prompt `$`
 
 `$`, which we will refer to as the "command prompt," is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
+When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command.
+
 In the next section, we'll learn how to navigate the filesystem in the command line.
 
-[<<< Previous](03-why-is-the-command-line-useful.md) | [Next >>>](05-navigation.md)
+---
+
+← [Why is the command line useful?](3-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](5-prefatory-pro-tips.md) →
