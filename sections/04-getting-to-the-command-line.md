@@ -34,15 +34,17 @@ We won't be using Windows's own non-UNIX version of the command line. Instead, w
 
 4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
 
+  _Note that the sign for you being in the right place might also be a `%` or a `#` depending on your operating system._
+
 Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>windows</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
 
 ## Command Prompt `$`
 
 `$`, which we will refer to as the "command prompt," is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
-When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command.
+When you see the `$`, you're in the right place. As noted above, however, the sign varies somewhat between systems, and sometimes the sign is a `%` or a `#`. We call the sign the _command prompt_; it lets us know the computer is ready to receive a command.
 
-In the next section, we'll learn how to navigate the filesystem in the command line.
+In the following lessons, we will refer to the command prompt using a `$`. Just make a note now of your sign, if it differs from the dollar sign. You will be able to follow along just fine as long as you understand that they all are different ways of knowing that you are "at the _command prompt_."
 
 ---
 
