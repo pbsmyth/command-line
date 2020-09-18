@@ -45,11 +45,11 @@ Mastering the command line will prove useful in a great number of projects.
 
 ### Ethical Considerations
 
-"The command line" is also laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in ["On Software, or the Persistence of Visual Knowledge" (2004)](https://doi.org/10.1162/1526381043320741), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts——predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argues
+- "The command line" is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in ["On Software, or the Persistence of Visual Knowledge" (2004)](https://doi.org/10.1162/1526381043320741), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts——predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argues
 
-> computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.
+    > computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.
 
-If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in.
+    If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in.
 
 ## Resources 
 
