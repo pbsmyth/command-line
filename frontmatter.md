@@ -22,19 +22,19 @@ If asked to show someone who has never seen a computer how to *do* something on 
 
 To complete the workshop, you will need:
 
-- A plain text editor, such as [VS Code](https://github.com/GC-DRI/install/blob/master/sections/vscode.md) installed
-- To know what operating system you're using. If you are on a Mac, you will be using your Terminal. If you're using Windows, you will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session. 
+- A plain text editor, such as [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) installed
+- To know what operating system you're using. If you are on a Mac, you will be using your Terminal. If you're using Windows, you will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md), so that we can work in the cross-platform Unix command line for this session.
 
 ## Contexts
 
 ### Pre-reading suggestions
 
 - [Neal Stephenson's "In the Beginning... Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
-- [Douglas Rushkoff's *Program or Be Programmed*](https://rushkoff.com/books/program-or-be-programmed/) offers some reflections on how using the command line allows one to communicate in a less mediated way with their machines and the importance of doing so in the current technoscape.  
+- [Douglas Rushkoff's *Program or Be Programmed*](https://rushkoff.com/books/program-or-be-programmed/) offers some reflections on how using the command line allows one to communicate in a less mediated way with their machines and the importance of doing so in the current technoscape.
 
 ### Projects that use these skills
 
-Mastering the command line will prove useful in a great number of projects. 
+Mastering the command line will prove useful in a great number of projects.
 
 - Most Python- and R-based projects will require you to have some knowledge of the command line. At a very basic level, you will be invoking a Python script and will be using values of command line arguments when creating and running your scripts.
 - The command line is also useful for setting up installations of server side software like [Omeka](www.omeka.org). The command line will allow you to navigate the file structure of your server. Commands like ls, mkdir, rmdir, cd, etc. are really important. For example, grep could help you find a plugin directory that you might have accidentally placed in the wrong location.
@@ -49,7 +49,7 @@ Mastering the command line will prove useful in a great number of projects.
 
     If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in.
 
-## Resources 
+## Resources
 
 - [Glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md)
 - [Bite Size Command Line (by Julia Evans)](https://jvns.ca/blog/2018/08/05/new-zine--bite-size-command-line/)
