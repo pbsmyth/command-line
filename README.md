@@ -82,7 +82,7 @@ Mastering the command line will prove useful in a great number of projects.
 
 ## Acknowledgements
 
-This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center's Digital Initiatives. If you want to see statistics for contributions to this workshop, you can do so [here](https://github.com/DHRI-Curriculum/python/graphs/contributors). This is a list of all the contributors:
+This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center's Digital Initiatives. If you want to see statistics for contributions to this workshop, you can do so [here](https://www.github.com/DHRI-Curriculum/command-line/graphs/contributors). This is a list of all the contributors:
 
 - Current Author: [Stefano Morello](https://github.com/smorello87)
 - Past contributing Author: [Kelsey Chatlosh](https://github.com/kchatlosh)
