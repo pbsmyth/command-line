@@ -16,7 +16,7 @@ If asked to show someone who has never seen a computer how to *do* something on 
 
 ## Estimated time
 
-3 hours.
+3 hours
 
 ## Prerequisites
 
