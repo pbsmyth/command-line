@@ -1,4 +1,4 @@
-← [Text editors](2-text-editors.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Getting to the command line](4-getting-to-the-command-line.md) →
+← [Text editors](02-text-editors.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Getting to the command line](04-getting-to-the-command-line.md) →
 
 ---
 
@@ -22,4 +22,4 @@ In the next section, we'll make this a little more clear by getting started with
 
 ---
 
-← [Text editors](2-text-editors.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Getting to the command line](4-getting-to-the-command-line.md) →
+← [Text editors](02-text-editors.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Getting to the command line](04-getting-to-the-command-line.md) →

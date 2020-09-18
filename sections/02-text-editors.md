@@ -1,4 +1,4 @@
-← [What Is the Command Line?](1-what-is-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why is the command line useful?](3-why-is-the-command-line-useful.md) →
+← [What Is the Command Line?](01-what-is-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why is the command line useful?](03-why-is-the-command-line-useful.md) →
 
 ---
 
@@ -63,4 +63,4 @@ What is the Command Line? How is it different from your text editor?
 
 ---
 
-← [What Is the Command Line?](1-what-is-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why is the command line useful?](3-why-is-the-command-line-useful.md) →
+← [What Is the Command Line?](01-what-is-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Why is the command line useful?](03-why-is-the-command-line-useful.md) →

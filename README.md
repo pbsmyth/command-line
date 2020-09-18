@@ -15,21 +15,21 @@ In this workshop, you will:
 
 ---
 
-<p align="center">This workshop is estimated to take you 3 hours. to complete.</p><p align="center"><a href="sections/1-what-is-the-command-line.md">Get Started</a> →</p>
+<p align="center">This workshop is estimated to take you 3 hours. to complete.</p><p align="center"><a href="sections/01-what-is-the-command-line.md">Get Started</a> →</p>
 
 ---
 
 ## Lessons
 
-1. [What Is the Command Line?](sections/1-what-is-the-command-line.md)
-2. [Text editors](sections/2-text-editors.md)
-3. [Why is the command line useful?](sections/3-why-is-the-command-line-useful.md)
-4. [Getting to the command line](sections/4-getting-to-the-command-line.md)
-5. [Prefatory Pro Tips](sections/5-prefatory-pro-tips.md)
-6. [Navigation](sections/6-navigation.md)
-7. [Creating files and folders](sections/7-creating-files-and-folders.md)
-8. [Creating a cheat sheet](sections/8-creating-a-cheat-sheet.md)
-9. [Pipes](sections/9-pipes.md)
+1. [What Is the Command Line?](sections/01-what-is-the-command-line.md)
+2. [Text editors](sections/02-text-editors.md)
+3. [Why is the command line useful?](sections/03-why-is-the-command-line-useful.md)
+4. [Getting to the command line](sections/04-getting-to-the-command-line.md)
+5. [Prefatory Pro Tips](sections/05-prefatory-pro-tips.md)
+6. [Navigation](sections/06-navigation.md)
+7. [Creating files and folders](sections/07-creating-files-and-folders.md)
+8. [Creating a cheat sheet](sections/08-creating-a-cheat-sheet.md)
+9. [Pipes](sections/09-pipes.md)
 10. [Exploring text data](sections/10-exploring-text-data.md)
 11. [Interlude](sections/11-interlude.md)
 12. [Searching text data](sections/12-searching-text-data.md)
@@ -73,7 +73,7 @@ Mastering the command line will prove useful in a great number of projects.
 
 ---
 
-<p align="center"><a href="sections/1-what-is-the-command-line.md">Get Started</a> →</p>
+<p align="center"><a href="sections/01-what-is-the-command-line.md">Get Started</a> →</p>
 
 ---
 

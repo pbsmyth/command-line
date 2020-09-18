@@ -1,4 +1,4 @@
-← [Pipes](9-pipes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Interlude](11-interlude.md) →
+← [Pipes](09-pipes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Interlude](11-interlude.md) →
 
 ---
 
@@ -110,4 +110,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [Pipes](9-pipes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Interlude](11-interlude.md) →
+← [Pipes](09-pipes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Interlude](11-interlude.md) →

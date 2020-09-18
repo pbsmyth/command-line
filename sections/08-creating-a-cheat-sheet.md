@@ -1,4 +1,4 @@
-← [Creating files and folders](7-creating-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pipes](9-pipes.md) →
+← [Creating files and folders](07-creating-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pipes](09-pipes.md) →
 
 ---
 
@@ -107,4 +107,4 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 
 ---
 
-← [Creating files and folders](7-creating-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pipes](9-pipes.md) →
+← [Creating files and folders](07-creating-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pipes](09-pipes.md) →

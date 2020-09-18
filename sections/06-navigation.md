@@ -1,4 +1,4 @@
-← [Prefatory Pro Tips](5-prefatory-pro-tips.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating files and folders](7-creating-files-and-folders.md) →
+← [Prefatory Pro Tips](05-prefatory-pro-tips.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating files and folders](07-creating-files-and-folders.md) →
 
 ---
 
@@ -115,4 +115,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [Prefatory Pro Tips](5-prefatory-pro-tips.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating files and folders](7-creating-files-and-folders.md) →
+← [Prefatory Pro Tips](05-prefatory-pro-tips.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating files and folders](07-creating-files-and-folders.md) →

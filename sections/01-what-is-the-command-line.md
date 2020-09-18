@@ -1,4 +1,4 @@
-↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Text editors](2-text-editors.md) →
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Text editors](02-text-editors.md) →
 
 ---
 
@@ -16,4 +16,4 @@ Let's take a quick moment to discuss text and text editors.
 
 ---
 
-↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Text editors](2-text-editors.md) →
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Text editors](02-text-editors.md) →

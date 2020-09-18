@@ -1,4 +1,4 @@
-← [Navigation](6-navigation.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating a cheat sheet](8-creating-a-cheat-sheet.md) →
+← [Navigation](06-navigation.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating a cheat sheet](08-creating-a-cheat-sheet.md) →
 
 ---
 
@@ -86,4 +86,4 @@ What does the <kbd>up arrow</kbd> command do?
 
 ---
 
-← [Navigation](6-navigation.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating a cheat sheet](8-creating-a-cheat-sheet.md) →
+← [Navigation](06-navigation.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Creating a cheat sheet](08-creating-a-cheat-sheet.md) →

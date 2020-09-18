@@ -1,4 +1,4 @@
-← [Why is the command line useful?](3-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](5-prefatory-pro-tips.md) →
+← [Why is the command line useful?](03-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](05-prefatory-pro-tips.md) →
 
 ---
 
@@ -46,4 +46,4 @@ In the next section, we'll learn how to navigate the filesystem in the command l
 
 ---
 
-← [Why is the command line useful?](3-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](5-prefatory-pro-tips.md) →
+← [Why is the command line useful?](03-why-is-the-command-line-useful.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Prefatory Pro Tips](05-prefatory-pro-tips.md) →
