@@ -51,7 +51,9 @@ To complete the workshop, you will need:
 Before you start the Introduction to the Command Line workshop, we want to remind you of some ethical considerations to take into account when you read through the lessons of this workshop:
 
 - "The command line" is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in ["On Software, or the Persistence of Visual Knowledge" (2004)](https://doi.org/10.1162/1526381043320741), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts——predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argues
+
     > computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.
+
   If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in.
 
 ### Pre-reading suggestions
@@ -66,6 +68,7 @@ Before you start the Introduction to the Command Line workshop, you may want to 
 You may also want to check out a couple of projects that use the skills discussed in this workshop:
 
 Mastering the command line will prove useful in a great number of projects.
+
 - Most Python- and R-based projects will require you to have some knowledge of the command line. At a very basic level, you will be invoking a Python script and will be using values of command line arguments when creating and running your scripts.
 - The command line is also useful for setting up installations of server side software like [Omeka](www.omeka.org). The command line will allow you to navigate the file structure of your server. Commands like ls, mkdir, rmdir, cd, etc. are really important. For example, grep could help you find a plugin directory that you might have accidentally placed in the wrong location.
 - A recent digital capstone project by Christofer Gass runs a Python script on the [command line](https://academicworks.cuny.edu/gc_etds/3786/)
