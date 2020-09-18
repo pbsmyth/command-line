@@ -43,8 +43,8 @@ If you do not have experience or basic knowledge of the following workshops, you
 
 To complete the workshop, you will need:
 
-- A plain text editor, such as [VS Code](https://github.com/GC-DRI/install/blob/master/sections/vscode.md) installed
-- To know what operating system you're using. If you are on a Mac, you will be using your Terminal. If you're using Windows, you will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session.
+- A plain text editor, such as [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) installed
+- To know what operating system you're using. If you are on a Mac, you will be using your Terminal. If you're using Windows, you will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md), so that we can work in the cross-platform Unix command line for this session.
 
 ### Ethical Considerations
 
@@ -65,7 +65,7 @@ Before you start the Introduction to the Command Line workshop, you may want to 
 
 You may also want to check out a couple of projects that use the skills discussed in this workshop:
 
-Mastering the command line will prove useful in a great number of projects. 
+Mastering the command line will prove useful in a great number of projects.
 - Most Python- and R-based projects will require you to have some knowledge of the command line. At a very basic level, you will be invoking a Python script and will be using values of command line arguments when creating and running your scripts.
 - The command line is also useful for setting up installations of server side software like [Omeka](www.omeka.org). The command line will allow you to navigate the file structure of your server. Commands like ls, mkdir, rmdir, cd, etc. are really important. For example, grep could help you find a plugin directory that you might have accidentally placed in the wrong location.
 - A recent digital capstone project by Christofer Gass runs a Python script on the [command line](https://academicworks.cuny.edu/gc_etds/3786/)
