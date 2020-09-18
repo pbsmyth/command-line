@@ -159,18 +159,7 @@ OK, we're going to try another command. But first, let's make sure we understand
 
 Your computer's files are organized in what's known as a hierarchical filesystem. That means there's a top level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. You can draw these relationships in a tree:
 
-```
-Users
-│
-└───your-username
-│   │
-│   └───Applications
-│   │
-│   └───Desktop
-│   │
-│   └───Documents
-│   │
-```
+![An example of how a hierarchical filesystem looks](images/hierarchical-filesystem-example.png)
 
 The root or highest-level folder on macOS is just called `/`. We won't need to go in there, though, since that's mostly just files for the operating system. On Windows, the root directory is usually called `C:`. (If you are curious why `C:` is the default name on Windows, you can read about it [here](http://www.todayifoundout.com/index.php/2015/04/c-drive-default-windows-based-computers-2).)
 
