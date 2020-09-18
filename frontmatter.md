@@ -47,7 +47,7 @@ Mastering the command line will prove useful in a great number of projects.
 
     > computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.
 
-    If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in.
+  If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in.
 
 ## Resources
 
