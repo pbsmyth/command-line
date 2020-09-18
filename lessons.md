@@ -4,15 +4,15 @@ The command line is a text-based way of interacting with your computer. You may 
 
 The command line (of computers today) receives these commands as text that is typed in.
 
-## What does "text-based" mean?
+## What Does "Text-based" Mean?
 
 For those of us comfortable reading and writing, the idea of "text-based" in the context of computers can seem a bit strange. As we start to get comfortable typing commands to the computer, it's important to distinguish "text" from word processed, desktop publishing. In the latter case, we use software (think Microsoft Word or Google Docs) that displays what we want to produce without showing us the code the computer is reading to render the formatting. On the other hand, while less pretty to look at, plain text has the advantage of being manipulable in different contexts.
 
 Let's take a quick moment to discuss text and text editors.
 
-# Text editors
+# Text Editors
 
-## What is text?
+## What is Text?
 
 Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in _Textual Scholarship_, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
@@ -28,7 +28,7 @@ Users with visual disabilities, [click here](https://raw.githubusercontent.com/D
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
-## Plain text
+## Plain Text
 
 For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
 
@@ -44,7 +44,7 @@ Plain text has two main properties in regard to rich text:
 
 > plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable.
 
-## Choosing a text editor
+## Choosing a Text Editor
 
 An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as `.txt`, `.csv`, or `.md`. Text editors are not used to edit rich text documents, such as `.docx` or `.rtf`, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly.
 
@@ -52,7 +52,7 @@ While it doesn't really matter which text editor you choose, you should try to b
 
 Choosing a text editor has as much to do with personality as it does with functionality. Graphical user interfaces (GUIs), user options, and "hackability" vary from program to program.
 
-## Default recommendation
+## Default Recommendation
 
 For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across macOS, Windows, and Linux systems.
 
@@ -69,7 +69,7 @@ What is the difference between a plain text document and a rich text document? (
 
 What is the Command Line? How is it different from your text editor?
 
-# Why is the command line useful?
+# Why is the Command Line Useful?
 
 Initially, for some of us, the command line can feel a bit unfamiliar. Why step away from a point-and-click workflow? By using the command line, we move into an environment where we have more minute control over each task we'd like the computer to perform. Instead of ordering your food in a restaurant, you're stepping into the kitchen. It's more work, but there are also more possibilities.
 
@@ -87,7 +87,7 @@ What if all these cool possibilities seem a bit abstract to you right now? That'
 
 In the next section, we'll make this a little more clear by getting started with the command line.
 
-# Getting to the command line
+# Getting to the Command Line
 
 ## macOS
 
@@ -105,7 +105,7 @@ If you're using macOS:
 
 Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
 
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can hold the <kbd>Command (⌘)</kbd> key while and press <kbd>space</kbd> to pull up Spotlight search, start typing `Terminal,` and then hit `Enter` to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can hold the <kbd>command (⌘)</kbd> key while and press <kbd>space</kbd> to pull up Spotlight search, start typing `Terminal,` and then hit `Enter` to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
 
 ## Windows
 
@@ -119,9 +119,9 @@ We won't be using Windows's own non-UNIX version of the command line. Instead, w
 
 4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
 
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>Win (⊞)</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>Enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>windows</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
 
-## Command prompt `$`
+## Command Prompt `$`
 
 `$`, which we will refer to as the "command prompt," is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
@@ -153,7 +153,7 @@ $ whoami
 
 The `whoami` command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press <kbd>enter</kbd> on your keyboard, and receive output.
 
-## Orienting yourself in the command line: folders
+## Orienting Yourself in the Command Line: Folders
 
 OK, we're going to try another command. But first, let's make sure we understand some things about how your computer's filesystem works.
 
@@ -252,9 +252,9 @@ Do you remember the glossary terms from this section?
 - [GUI](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/gui.md)
 - [Root](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/root.md)
 
-# Creating files and folders
+# Creating Files and Folders
 
-## Creating a file
+## Creating a File
 
 So far, we've only performed commands that give us information. Let's use a command that creates something on the computer.
 
@@ -281,13 +281,13 @@ The `touch` command is used to create a file without any content. This command c
 
 If the command succeeds, you won't see any output. Now move the terminal window and look at your "real" desktop, the graphical one. See any differences? If the command was successful and you were in the right place, you should see an empty text file called `foo.txt` on the desktop. Pretty cool, right?
 
-## Handy tip: up arrow
+## Handy Tip: Up Arrow
 
-Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit <kbd>Enter</kbd> to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to `foot.txt` to create a different file.
+Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit <kbd>enter</kbd> to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to `foot.txt` to create a different file.
 
 As we start to write more complicated and longer commands in our terminal, the <kbd>up arrow</kbd> is a great shortcut so you don't have to spend lots of time typing.
 
-## Creating folders
+## Creating Folders
 
 OK, so we're going to be doing a lot of work during the Digital Humanities Research Institute. Let's create a `projects` folder on our desktop, where we can keep all our work in one place.
 
@@ -334,7 +334,7 @@ What does the <kbd>up arrow</kbd> command do?
 - It inserts my last command.*
 - It shows me what folder I am working in.
 
-# Creating a cheat sheet
+# Creating a Cheat Sheet
 
 In this section, we'll create a text file that we can use as a cheat sheet. You can use it to keep track of all the awesome commands you're learning.
 
@@ -379,7 +379,7 @@ This is my cheat sheet
 
 As you can see, the `cat` command prints the contents of a file to the screen. `cat` stands for "concatenate," because it can link strings of characters or files together from end to end.
 
-## A note on file naming
+## A Note on File Naming
 
 Your cheat sheet is titled `cheat-sheet.txt` instead of `cheat sheet.txt` for a reason. Can you guess why?
 
@@ -389,7 +389,7 @@ Now imagine you're attempting to open a very important data file using the comma
 
 For your digital best practices, we recommend making sure that file names contain no spaces—you can use creative capitalization, dashes, or underscores instead. Just keep in mind that the macOS and Unix file systems are usually pre-configured as cAsE-pReSeRvInG, which means that capitalization matters when you type commands to navigate between or do things to directories and files. You may also want to avoid using periods in your file names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually `file.pdf`).
 
-## Using a text editor
+## Using a Text Editor
 
 The challenge for this section will be using a text editor, specifically Visual Studio Code ([install guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md)), to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as `.txt`, `.py` (Python scripts), and `.csv` (comma-separated values, also known as spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems.
 
@@ -474,7 +474,7 @@ What do pipes allow you to do?
 - Pipes allow you to combine multiple commands in a single line.*
 - Pipes let you work on multiple files at the same time.
 
-# Exploring text data
+# Exploring Text Data
 
 So far the only text file we've been working with is our cheat sheet. Now, this is where the command line can be a very powerful tool: let's try working with a large text file, one that would be too large to work with by hand.
 
@@ -484,7 +484,7 @@ Let's download the data we're going to work with:
 
 Our data set is a list of public domain items from the New York Public Library. It's in `.csv` format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
-## Move command
+## Move Command
 
 Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop—either through the command line, or drag and drop in the GUI. Since this is indeed a command line workshop, you should try the former!
 
@@ -496,9 +496,9 @@ $ mv nypl_items.csv ~/Desktop/projects/
 
 You can then navigate to that `projects` folder and use the `ls` command to check that the file is now there.
 
-## Viewing data in the command line
+## Viewing Data in the Command Line
 
-Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click <kbd>Control</kbd> + <kbd>C</kbd> on your keyboard to cancel the output if it's taking too long.)
+Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click <kbd>control</kbd> + <kbd>c</kbd> on your keyboard to cancel the output if it's taking too long.)
 
 Instead, let's use another tool, the `less` command, to get the data one page at a time:
 
@@ -527,7 +527,7 @@ $ tail nypl_items.csv
 
 These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
 
-## Cleaning the data
+## Cleaning the Data
 
 We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our `.csv` file:
 
@@ -592,9 +592,9 @@ In other words, anytime in the command line you can type as much of the file or 
 
 ## Clearing Text
 
-If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>CTRL</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
+If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>control</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
 
-# Searching text data
+# Searching Text Data
 
 So we've cleaned our data set, but how do we find entries that use a particular term?
 
@@ -632,7 +632,7 @@ Let's think about the `grep` command.
 - It produces a new file with the lines containing the strings or words you are searching.
 - It delete the strings or words you are searching from a file.
 
-# What we've learned
+# What We Have Learned
 
 Now is a good time to do a quick review!
 
