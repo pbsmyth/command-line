@@ -53,9 +53,6 @@ Mastering the command line will prove useful in a great number of projects.
 
 ## Resources 
 
-- [Commands cheat sheet](sections/12-commands.md)  
-- [More on text editors](sections/13-text-editors-ides.md)  
-- [Other useful commands](sections/14-other-commands.md)   
 - [Glossary](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/command-line.md)
 - [Bite Size Command Line (by Julia Evans)](https://jvns.ca/blog/2018/08/05/new-zine--bite-size-command-line/)
 - [Basic UNIX commands](http://mally.stanford.edu/~sr/computing/basic-unix.html)
