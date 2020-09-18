@@ -18,13 +18,13 @@ Before we explain which program we'll be using for editing text, we want to give
 
 ![Word Doc](sections/images/worddoc.png)
 
-Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/blob/v2.0/WordProcessorExample.docx?raw=true) to download the Word file.
+Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/raw/v2.0/files/WordProcessorExample.docx) to download the Word file.
 
 If you ask the command line to read that file, this Word `.docx` file will look something like this
 
 ![Word Doc as visualized by Command Line](sections/images/CatWordDoc.png)
 
-Users with visual disabilities, [click here](https://raw.githubusercontent.com/DHRI-Curriculum/command-line/v2.0/PK.md) to download the text file.
+Users with visual disabilities, [click here](https://raw.githubusercontent.com/DHRI-Curriculum/command-line/v2.0/files/PK.md) to download the text file.
 
 Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
 
@@ -480,7 +480,7 @@ So far the only text file we've been working with is our cheat sheet. Now, this 
 
 Let's download the data we're going to work with:
 
-[Download `nypl_items.csv`](https://github.com/DHRI-Curriculum/command-line/blob/v2.0/nypl_items.csv?raw=true)
+[Download `nypl_items.csv`](https://github.com/DHRI-Curriculum/command-line/raw/v2.0/files/nypl_items.csv)
 
 Our data set is a list of public domain items from the New York Public Library. It's in `.csv` format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
