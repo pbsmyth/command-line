@@ -5,8 +5,6 @@ If asked to show someone who has never seen a computer how to *do* something on 
 
 In this workshop, you will:
 
-In this workshop, you will learn the following skills:
-
 - Learn common commands to create files (`touch` and `echo`)
 - Learn commands to create directories (`mkdir`)
 - Navigate our file structure using change directory (`cd`), print working directory (`pwd`), and list (`ls`)
