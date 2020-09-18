@@ -15,7 +15,7 @@ In this workshop, you will:
 
 ---
 
-<p align="center">This workshop is estimated to take you 3 hours. to complete.</p><p align="center"><a href="sections/01-what-is-the-command-line.md">Get Started</a> →</p>
+<p align="center">This workshop is estimated to take you 3 hours to complete.</p><p align="center"><a href="sections/01-what-is-the-command-line.md">Get Started</a> →</p>
 
 ---
 
