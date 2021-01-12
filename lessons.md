@@ -594,7 +594,7 @@ In other words, anytime in the command line you can type as much of the file or 
 
 ## Clearing Text
 
-If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>control</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
+If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command (⌘)</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command (⌘)</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>control</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
 
 # Searching Text Data
 
@@ -623,7 +623,7 @@ Here we have asked `cat` to read `nypl_items.csv`, take the output and pipe it i
 Use the `grep` command to explore our `.csv` file a bit. What areas are best covered by the data set?
 
 ## Solution
-If you want to get a little more milage out of the grep command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
+If you want to get a little more milage out of the `grep` command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
 
 ## Evaluation
 
