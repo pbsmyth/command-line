@@ -23,7 +23,7 @@ If asked to show someone who has never seen a computer how to *do* something on 
 To complete the workshop, you will need:
 
 - [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) (recommended) You can use any plain text editor but for our purposes, Visual Studio Code ("VS Code") will be used.
-- To know what operating system you're using. If you are on a Mac, you will be using the built-in Terminal. If you're using Windows, you will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md), so that we can work in the cross-platform Unix command line for this session.
+- To know what operating system you're using. If you are on a Mac, you will be using the built-in Terminal. If you're using Windows, you will need to follow the instructions to install [Git Bash](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md), so that we can work in the cross-platform Unix command line for this session.
 
 ## Contexts
 
