@@ -14,7 +14,7 @@ In other words, anytime in the command line you can type as much of the file or 
 
 ## Clearing Text
 
-If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>control</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
+If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command (⌘)</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command (⌘)</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>control</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
 
 ---
 
