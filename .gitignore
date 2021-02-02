@@ -1,8 +1,6 @@
 *~
 *#
 .#*
-*.pyc
-__pycache__/
-.python-version
-push
+*.dnc
+__pycache__ 
 .DS_Store
