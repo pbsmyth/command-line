@@ -23,7 +23,7 @@ If asked to show someone who has never seen a computer how to *do* something on 
 To complete the workshop, you will need:
 
 - [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) (recommended) You can use any plain text editor but for our purposes, Visual Studio Code ("VS Code") will be used.
-- To know what operating system you're using. If you are on a Mac, you will be using the built-in Terminal. If you're using Windows, you will need to follow the instructions to install [Git Bash](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md), so that we can work in the cross-platform Unix command line for this session.
+- [Git Bash](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md) (required) If you're using Windows, you will need to follow the instructions to install so that we can work in the cross-platform Unix command line for this session. If you're using macOS, however, you do not need to take any action. The built-in Terminal application has all the functionality we need.
 
 ## Contexts
 
@@ -37,9 +37,9 @@ To complete the workshop, you will need:
 Mastering the command line will prove useful in a great number of projects.
 
 - Most Python- and R-based projects will require you to have some knowledge of the command line. At a very basic level, you will be invoking a Python script and will be using values of command line arguments when creating and running your scripts.
-- The command line is also useful for setting up installations of server side software like [Omeka](www.omeka.org). The command line will allow you to navigate the file structure of your server. Commands like ls, mkdir, rmdir, cd, etc. are really important. For example, grep could help you find a plugin directory that you might have accidentally placed in the wrong location.
-- A recent digital capstone project by Christofer Gass runs a Python script on the [command line](https://academicworks.cuny.edu/gc_etds/3786/)
-- [Awesome Bash](https://github.com/awesome-lists/awesome-bash), "a curated list of delightful Bash scripts and resources."
+- The command line is also useful for setting up installations of server side software like [Omeka](www.omeka.org). The command line will allow you to navigate the file structure of your server. Commands like `ls`, `mkdir`, `rmdir`, `cd`, etc. are really important. For example, `grep` could help you find a plugin directory that you might have accidentally placed in the wrong location.
+- [Fair World 64: A Text-Based Game of the 1964–1965 World's Fair](https://academicworks.cuny.edu/gc_etds/3786/) A recent digital capstone project by Christofer Gass runs a Python script on the command line
+- [Awesome Bash](https://github.com/awesome-lists/awesome-bash) A curated list of useful Bash scripts and resources.
 
 ### Ethical Considerations
 
