@@ -239,10 +239,10 @@ Go ahead and use pointing and clicking to navigate to your working directory—y
 ## Evaluation
 
 What command do you run if you are trying to identify where in the filesystem you are currently located/working?
-- $ `ls`
-- $ `pwd`*
-- $ `cd`
-- $ `whoami`
+- `$ ls`
+- `$ pwd`*
+- `$ cd`
+- `$ whoami`
 
 When and why would you want to use the command line as opposed to your operating system's GUI?
 
