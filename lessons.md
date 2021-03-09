@@ -430,7 +430,7 @@ Once you're done, check the contents of the file on the command line with the `c
 
 ## Evaluation
 
-What does effect does the following command produce?
+What effect does the following command produce?
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
 ```
