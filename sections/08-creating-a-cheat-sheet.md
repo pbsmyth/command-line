@@ -65,7 +65,7 @@ The challenge for this section will be using a text editor, specifically Visual 
 
 You _could_ use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in macOS, or via the Windows button in Windows—and then click `File` and then `Open` from the drop-down menu and navigate to your Desktop folder and click to open the `cheat-sheet.txt` file.
 
-_Or_, you can open that specific `cheat-sheet.txt` file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Remember, the command `code` prompts your computer to open Visual Code.)
+_Or_, you can open that specific `cheat-sheet.txt` file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Please note the command `code` prompts your computer to open Visual Code only if you have correctly completed [the software configuration](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) during installation.)
 
 Once you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
