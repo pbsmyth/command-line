@@ -8,12 +8,15 @@ So far, you've learned a number of commands and one special symbol, the `>` or r
 
 Pipes let you take the output of one command and use it as the input for another.
 
+![Pipes diagram](../images/pipes.png)
+
 Let's start with a simple example:
 
 ```console
 $ echo "Hello from the command line" | wc -w
 5
 ```
+![Pipes diagram](../images/example_pipes.png)
 
 In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands.
 
