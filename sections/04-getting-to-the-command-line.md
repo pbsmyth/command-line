@@ -36,6 +36,8 @@ We won't be using Windows's own non-UNIX version of the command line. Instead, w
 
   _Note that the sign for you being in the right place might also be a `%` or a `#` depending on your operating system._
 
+![Terminal on Windows](../images/win_term.png)
+
 Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>windows</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
 
 ## Command Prompt `$`
