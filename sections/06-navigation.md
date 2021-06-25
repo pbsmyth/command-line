@@ -61,6 +61,12 @@ $ pwd
 
 Now try `ls` again to see what's on your desktop. These three commands—`pwd`, `ls`, and `cd`—are the most commonly used in the terminal. Between them, you can orient yourself and move around.
 
+One more command you might find useful is `cd ..` which will move you one directory up in the filesystem. That's a `cd` with two periods after it:
+
+```console
+$ cd ..
+```
+
 ## Challenge
 
 Before moving on, take a minute to navigate through our computer's file system using the command line. Use the three commands you've just learned—`pwd`, `ls` and `cd`—eight (8) times each. Go poking around your `Photos` folder, or see what's so special about that root `/` directory. When you're done, come back to your "home" folder with
@@ -69,11 +75,7 @@ Before moving on, take a minute to navigate through our computer's file system u
 $ cd ~
 ```
 
-(That's a tilde <kbd>~</kbd>, on the top left of your keyboard.) One more command you might find useful is `cd ..` which will move you one directory up in the filesystem. That's a `cd` with two periods after it:
-
-```console
-$ cd ..
-```
+(That's a tilde <kbd>~</kbd>, on the top left of your keyboard.) 
 
 ### Compare with the GUI
 
