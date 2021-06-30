@@ -16,13 +16,13 @@ Let's take a quick moment to discuss text and text editors.
 
 Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in _Textual Scholarship_, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
-![Word Doc](../images/worddoc.png)
+![Word Doc](/images/worddoc.png)
 
 Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/raw/v2.0/files/WordProcessorExample.docx) to download the Word file.
 
 If you ask the command line to read that file, this Word `.docx` file will look something like this
 
-![Word Doc as visualized by Command Line](../images/CatWordDoc.png)
+![Word Doc as visualized by Command Line](/images/CatWordDoc.png)
 
 Users with visual disabilities, [click here](https://raw.githubusercontent.com/DHRI-Curriculum/command-line/v2.0/files/PK.md) to download the text file.
 
@@ -101,7 +101,7 @@ If you're using macOS:
 
 4. When the Terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.
 
-    ![Terminal in macOS](../images/osx_term.png)
+    ![Terminal in macOS](/images/osx_term.png)
 
 Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
 
@@ -121,7 +121,7 @@ We won't be using Windows's own non-UNIX version of the command line. Instead, w
 
   _Note that the sign for you being in the right place might also be a `%` or a `#` depending on your operating system._
 
-![Terminal on Windows](../images/win_term.png)
+![Terminal on Windows](/images/win_term.png)
 
 Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>windows</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
 
@@ -163,7 +163,7 @@ OK, we're going to try another command. But first, let's make sure we understand
 
 Your computer's files are organized in what's known as a hierarchical filesystem. That means there's a top level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. You can draw these relationships in a tree:
 
-![An example of how a hierarchical filesystem looks](../images/hierarchical-filesystem-example.png)
+![An example of how a hierarchical filesystem looks](/images/hierarchical-filesystem-example.png)
 
 The root or highest-level folder on macOS is just called `/`. We won't need to go in there, though, since that's mostly just files for the operating system. On Windows, the root directory is usually called `C:`. (If you are curious why `C:` is the default name on Windows, you can read about it [here](http://www.todayifoundout.com/index.php/2015/04/c-drive-default-windows-based-computers-2).)
 
@@ -449,7 +449,7 @@ So far, you've learned a number of commands and one special symbol, the `>` or r
 
 Pipes let you take the output of one command and use it as the input for another.
 
-![Pipes diagram](images/pipes.png)
+![Pipes diagram](/images/pipes.png)
 
 Let's start with a simple example:
 
@@ -457,7 +457,7 @@ Let's start with a simple example:
 $ echo "Hello from the command line" | wc -w
 5
 ```
-![Pipes diagram](../images/example_pipes.png)
+![Pipes diagram](/images/example_pipes.png)
 
 In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands.
 
