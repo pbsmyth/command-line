@@ -16,13 +16,13 @@ Let's take a quick moment to discuss text and text editors.
 
 Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in _Textual Scholarship_, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
-![Word Doc](images/worddoc.png)
+![Word Doc](../images/worddoc.png)
 
 Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/raw/v2.0/files/WordProcessorExample.docx) to download the Word file.
 
 If you ask the command line to read that file, this Word `.docx` file will look something like this
 
-![Word Doc as visualized by Command Line](images/CatWordDoc.png)
+![Word Doc as visualized by Command Line](../images/CatWordDoc.png)
 
 Users with visual disabilities, [click here](https://raw.githubusercontent.com/DHRI-Curriculum/command-line/v2.0/files/PK.md) to download the text file.
 
@@ -32,7 +32,7 @@ Word documents which look like "just words!" are actually comprised of an archiv
 
 For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
 
-According to the [Unicode Standard](https://www.unicode.org/versions/Unicode12.1.0/),
+According to the [Unicode Standard](https://unicode.org/versions/Unicode13.0.0/),
 
 > Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.
 
@@ -101,7 +101,7 @@ If you're using macOS:
 
 4. When the Terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.
 
-    ![Terminal in macOS](images/osx_term.png)
+    ![Terminal in macOS](../images/osx_term.png)
 
 Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
 
@@ -120,6 +120,8 @@ We won't be using Windows's own non-UNIX version of the command line. Instead, w
 4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
 
   _Note that the sign for you being in the right place might also be a `%` or a `#` depending on your operating system._
+
+![Terminal on Windows](../images/win_term.png)
 
 Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>windows</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
 
@@ -161,7 +163,7 @@ OK, we're going to try another command. But first, let's make sure we understand
 
 Your computer's files are organized in what's known as a hierarchical filesystem. That means there's a top level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. You can draw these relationships in a tree:
 
-![An example of how a hierarchical filesystem looks](images/hierarchical-filesystem-example.png)
+![An example of how a hierarchical filesystem looks](../images/hierarchical-filesystem-example.png)
 
 The root or highest-level folder on macOS is just called `/`. We won't need to go in there, though, since that's mostly just files for the operating system. On Windows, the root directory is usually called `C:`. (If you are curious why `C:` is the default name on Windows, you can read about it [here](http://www.todayifoundout.com/index.php/2015/04/c-drive-default-windows-based-computers-2).)
 
@@ -202,6 +204,12 @@ $ pwd
 
 Now try `ls` again to see what's on your desktop. These three commands—`pwd`, `ls`, and `cd`—are the most commonly used in the terminal. Between them, you can orient yourself and move around.
 
+One more command you might find useful is `cd ..` which will move you one directory up in the filesystem. That's a `cd` with two periods after it:
+
+```console
+$ cd ..
+```
+
 ## Challenge
 
 Before moving on, take a minute to navigate through our computer's file system using the command line. Use the three commands you've just learned—`pwd`, `ls` and `cd`—eight (8) times each. Go poking around your `Photos` folder, or see what's so special about that root `/` directory. When you're done, come back to your "home" folder with
@@ -210,11 +218,7 @@ Before moving on, take a minute to navigate through our computer's file system u
 $ cd ~
 ```
 
-(That's a tilde <kbd>~</kbd>, on the top left of your keyboard.) One more command you might find useful is `cd ..` which will move you one directory up in the filesystem. That's a `cd` with two periods after it:
-
-```console
-$ cd ..
-```
+(That's a tilde <kbd>~</kbd>, on the top left of your keyboard.) 
 
 ### Compare with the GUI
 
@@ -239,10 +243,10 @@ Go ahead and use pointing and clicking to navigate to your working directory—y
 ## Evaluation
 
 What command do you run if you are trying to identify where in the filesystem you are currently located/working?
-- `$ ls`
-- `$ pwd`*
-- `$ cd`
-- `$ whoami`
+- $ `ls`
+- $ `pwd`*
+- $ `cd`
+- $ `whoami`
 
 When and why would you want to use the command line as opposed to your operating system's GUI?
 
@@ -399,7 +403,7 @@ The challenge for this section will be using a text editor, specifically Visual 
 
 You _could_ use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in macOS, or via the Windows button in Windows—and then click `File` and then `Open` from the drop-down menu and navigate to your Desktop folder and click to open the `cheat-sheet.txt` file.
 
-_Or_, you can open that specific `cheat-sheet.txt` file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Remember, the command `code` prompts your computer to open Visual Code.)
+_Or_, you can open that specific `cheat-sheet.txt` file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Please note the command `code` prompts your computer to open Visual Code only if you have correctly completed [the software configuration](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) during installation.)
 
 Once you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
@@ -430,7 +434,7 @@ Once you're done, check the contents of the file on the command line with the `c
 
 ## Evaluation
 
-What effect does the following command produce?
+What does effect does the following command produce?
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
 ```
@@ -445,12 +449,15 @@ So far, you've learned a number of commands and one special symbol, the `>` or r
 
 Pipes let you take the output of one command and use it as the input for another.
 
+![Pipes diagram](../images/pipes.png)
+
 Let's start with a simple example:
 
 ```console
 $ echo "Hello from the command line" | wc -w
 5
 ```
+![Pipes diagram](../images/example_pipes.png)
 
 In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands.
 
@@ -483,6 +490,9 @@ So far the only text file we've been working with is our cheat sheet. Now, this 
 Let's download the data we're going to work with:
 
 [Download `nypl_items.csv`](https://github.com/DHRI-Curriculum/command-line/raw/v2.0/files/nypl_items.csv)
+
+If you are using Chrome or Firefox, right click on the link above and select "Save Link As..."; make sure you name the file `nypl_items.csv`
+Please note that, occasionally, [Chrome "forgets" to add the extension to your downloaded file](/images/savelinkaschrome.png); therefore, if your namefile doesn't end with `.csv`, [feel free to add it manually](/images/savelinkaschrome2.png).
 
 Our data set is a list of public domain items from the New York Public Library. It's in `.csv` format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
