@@ -449,7 +449,7 @@ So far, you've learned a number of commands and one special symbol, the `>` or r
 
 Pipes let you take the output of one command and use it as the input for another.
 
-![Pipes diagram](../images/pipes.png)
+![Pipes diagram](images/pipes.png)
 
 Let's start with a simple example:
 
