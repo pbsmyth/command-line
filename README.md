@@ -58,7 +58,7 @@ Before you start the Introduction to the Command Line workshop, we want to remin
 
 Before you start the Introduction to the Command Line workshop, you may want to read a couple of our pre-reading suggestions:
 
-- [Neal Stephenson's "In the Beginning... Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
+- [Neal Stephenson's "In the Beginning... Was the Command Line"](http://project.cyberpunk.ru/lib/in_the_beginning_was_the_command_line/) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
 - [Douglas Rushkoff's *Program or Be Programmed*](https://rushkoff.com/books/program-or-be-programmed/) offers some reflections on how using the command line allows one to communicate in a less mediated way with their machines and the importance of doing so in the current technoscape.
 
 ### Projects that use these skills
